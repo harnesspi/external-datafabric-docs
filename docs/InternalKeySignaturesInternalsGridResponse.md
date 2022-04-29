@@ -98,7 +98,8 @@ Type Description: KeyValueLink for object
 ```
 
 ## Related Entities
-- [](.md)
 - [InternalHPIDResponse](InternalHPIDResponse.md)
+- [ValueLink](ValueLink.md)
 - [SignatureInternalKeyResponse](SignatureInternalKeyResponse.md)
+- [KeyValueLink](KeyValueLink.md)
 

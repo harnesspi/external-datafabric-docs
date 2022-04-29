@@ -58,8 +58,8 @@ Type Description: ValueLink for SignatureKeyResponse
 ```
 
 ## Related Entities
-- [](.md)
 - [MultiSignatureResponse](MultiSignatureResponse.md)
+- [ValueLink](ValueLink.md)
 - [StreetResponse](StreetResponse.md)
 - [SignatureKeyResponse](SignatureKeyResponse.md)
 

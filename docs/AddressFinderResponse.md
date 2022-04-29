@@ -28,6 +28,6 @@ Type Description: ValueLink for MultiSignatureResponse
 ```
 
 ## Related Entities
-- [](.md)
 - [MultiSignatureResponse](MultiSignatureResponse.md)
+- [ValueLink](ValueLink.md)
 

@@ -58,5 +58,5 @@ Type Description: String
 ```
 
 ## Related Entities
-- [](.md)
+- [ValueLink](ValueLink.md)
 

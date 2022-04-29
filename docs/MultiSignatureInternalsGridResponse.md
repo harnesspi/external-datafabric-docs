@@ -93,8 +93,9 @@ Type Description: String
 ```
 
 ## Related Entities
-- [](.md)
 - [InternalHPIDResponse](InternalHPIDResponse.md)
+- [ValueLink](ValueLink.md)
 - [MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md)
 - [SignatureInternalKeyResponse](SignatureInternalKeyResponse.md)
+- [KeyValueLink](KeyValueLink.md)
 

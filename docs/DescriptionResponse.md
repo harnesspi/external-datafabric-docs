@@ -43,5 +43,5 @@ Type Description: ValueLink for object
 ```
 
 ## Related Entities
-- [](.md)
+- [ValueLink](ValueLink.md)
 

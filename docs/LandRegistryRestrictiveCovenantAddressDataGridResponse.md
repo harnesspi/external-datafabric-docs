@@ -33,5 +33,4 @@ Type Description: String
 ```
 
 ## Related Entities
-- [](.md)
 

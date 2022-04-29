@@ -49,6 +49,8 @@ Type Description: Array of KeyValueLinks for SignatureKeyResponse
 
 ## Related Entities
 - [SignatureHPIDResponse](SignatureHPIDResponse.md)
+- [ValueLink](ValueLink.md)
 - [StreetResponse](StreetResponse.md)
 - [SignatureKeyResponse](SignatureKeyResponse.md)
+- [KeyValueLink](KeyValueLink.md)
 

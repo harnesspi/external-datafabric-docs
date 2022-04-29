@@ -98,5 +98,5 @@ Type Description: KeyValueLink for object
 ```
 
 ## Related Entities
-- [](.md)
+- [KeyValueLink](KeyValueLink.md)
 

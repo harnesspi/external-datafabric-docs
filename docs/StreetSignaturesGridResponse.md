@@ -44,6 +44,8 @@ Type Description: ValueLink for StreetResponse
 
 ## Related Entities
 - [SignatureHPIDResponse](SignatureHPIDResponse.md)
+- [ValueLink](ValueLink.md)
 - [SignatureKeyResponse](SignatureKeyResponse.md)
+- [KeyValueLink](KeyValueLink.md)
 - [StreetResponse](StreetResponse.md)
 
