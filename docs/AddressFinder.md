@@ -3,12 +3,13 @@
 
 ## GET /addressfinder/{parameterAddress}
 - Response 200 (application/json)
+
 [Array of AddressFinderResponse](AddressFinderResponse.md)
-```
-/AddressFinder/2 townshend road richmond
-```
-```json
-[
+    ```
+   /AddressFinder/2 townshend road richmond
+    ```
+    ```json
+   [
   {
     "hpid": {
       "value": "87fb49ea-9964-4612-bf91-9796ea75247e",
@@ -248,12 +249,12 @@
     "address": "10 TOWNSHEND RD TW9 1XH"
   }
 ]
-```
-```
-/AddressFinder/townshend road richmond
-```
-```json
-[
+    ```
+    ```
+   /AddressFinder/townshend road richmond
+    ```
+    ```json
+   [
   {
     "hpid": {
       "value": "966b80d7-3d96-f340-d09f-909cefd22d81",
@@ -493,4 +494,4 @@
     "address": "10 TOWNSHEND RD TW9 1XH"
   }
 ]
-```
+    ```

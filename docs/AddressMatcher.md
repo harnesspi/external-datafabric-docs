@@ -3,12 +3,13 @@
 
 ## GET /addressmatcher/{parameterAddress}
 - Response 200 (application/json)
+
 [Array of AddressMatcherResponse](AddressMatcherResponse.md)
-```
-/AddressMatcher/2 townshend road richmond
-```
-```json
-[
+    ```
+   /AddressMatcher/2 townshend road richmond
+    ```
+    ```json
+   [
   {
     "hpid": {
       "value": "87fb49ea-9964-4612-bf91-9796ea75247e",
@@ -17,12 +18,12 @@
     "address": "2 TOWNSHEND RD TW9 1XH"
   }
 ]
-```
-```
-/AddressMatcher/townshend road richmond
-```
-```json
-[
+    ```
+    ```
+   /AddressMatcher/townshend road richmond
+    ```
+    ```json
+   [
   {
     "hpids": "",
     "street": "TOWNSHEND RD",
@@ -36,4 +37,4 @@
     }
   }
 ]
-```
+    ```
