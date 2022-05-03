@@ -2,6 +2,6 @@
 
 
 ## GET /voalistentrydataitem/{parameterAssessmentReference}
-- Response 200 (application/json)
-[VOAListEntryDataItemResponse](VOAListEntryDataItemResponse.md)
+### Response 200 (application/json)
+Content: [VOAListEntryDataItemResponse](VOAListEntryDataItemResponse.md)
 

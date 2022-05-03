@@ -1,119 +1,89 @@
 # TitleUPRNResponse
-## Description
-
 ## Properties
-### signature_hpid
+- signature_hpid (String)
 
+   
+- address_hpid (String)
 
-Type Description: String
-### address_hpid
+   
+- row_key (String)
 
+   
+- tenancy (String)
 
-Type Description: String
-### row_key
+   
+- id (String)
 
+   
+- row_key_subfix (String)
 
-Type Description: String
-### tenancy
+   
+- uprn (String)
 
+   
+- usrn (String)
 
-Type Description: String
-### id
+   
+- organisation (String)
 
+   
+- sub_building_start_number (String)
 
-Type Description: String
-### row_key_subfix
+   
+- sub_building_end_number (String)
 
+   
+- sub_building (String)
 
-Type Description: String
-### uprn
+   
+- building_start_number (String)
 
+   
+- building_end_number (String)
 
-Type Description: String
-### usrn
+   
+- building (String)
 
+   
+- address (String)
 
-Type Description: String
-### organisation
+   
+- street (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### sub_building_start_number
+   
+- floors (String)
 
+   
+- address_start_date (String)
 
-Type Description: String
-### sub_building_end_number
+   
+- address_end_date (String)
 
+   
+- address_string_type (String)
 
-Type Description: String
-### sub_building
+   
+- object_type (String)
 
+   
+- classification_code (String)
 
-Type Description: String
-### building_start_number
+   
+- classification_description (String)
 
+   
+- postal_addressable (String)
 
-Type Description: String
-### building_end_number
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
-Type Description: String
-### building
-
-
-Type Description: String
-### address
-
-
-Type Description: String
-### street
-
-
-Type Description: String
-### postcode
-
-
-Type Description: String
-### floors
-
-
-Type Description: String
-### address_start_date
-
-
-Type Description: String
-### address_end_date
-
-
-Type Description: String
-### address_string_type
-
-
-Type Description: String
-### object_type
-
-
-Type Description: String
-### classification_code
-
-
-Type Description: String
-### classification_description
-
-
-Type Description: String
-### postal_addressable
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
+   
 
 ## Schema
 ```json
@@ -150,8 +120,4 @@ Type Description: Array of MultiInternalAddressesGridResponse
        "internals" : {"type" : "array", "items" : {"$ref" : "/schemas/MultiInternalAddressesGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
 

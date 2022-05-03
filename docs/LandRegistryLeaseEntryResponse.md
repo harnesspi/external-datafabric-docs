@@ -1,55 +1,41 @@
 # LandRegistryLeaseEntryResponse
-## Description
-
 ## Properties
-### title_number
+- title_number (String)
 
+   
+- id (String)
 
-Type Description: String
-### id
+   
+- entry_number (String)
 
+   
+- reg_order (String)
 
-Type Description: String
-### entry_number
+   
+- associated_property_id (String)
 
+   
+- associated_property_description (String)
 
-Type Description: String
-### reg_order
+   
+- uprn (String)
 
+   
+- lease_date (String)
 
-Type Description: String
-### associated_property_id
+   
+- term (String)
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### associated_property_description
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### uprn
-
-
-Type Description: String
-### lease_date
-
-
-Type Description: String
-### term
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -70,9 +56,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

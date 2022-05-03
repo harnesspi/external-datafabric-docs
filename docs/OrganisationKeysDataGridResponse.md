@@ -1,27 +1,20 @@
 # OrganisationKeysDataGridResponse
-## Description
-
 ## Properties
-### organisation_hpid
+- organisation_hpid (String)
 
+   
+- key_type (String)
 
-Type Description: String
-### key_type
+   
+- key_value (String)
 
+   
+- description (String)
 
-Type Description: String
-### key_value
+   
+- month_of_birth (String)
 
-
-Type Description: String
-### description
-
-
-Type Description: String
-### month_of_birth
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -36,6 +29,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

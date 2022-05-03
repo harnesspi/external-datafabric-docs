@@ -1,75 +1,56 @@
 # ZooplaHistoricPriceFormResponse
-## Description
-
 ## Properties
-### property_id
+- property_id (String)
 
+   
+- address (String)
 
-Type Description: String
-### address
+   
+- locality (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### locality
+   
+- region (String)
 
+   
+- detail_url (String)
 
-Type Description: String
-### postcode
+   
+- bedrooms (String)
 
+   
+- bathrooms (String)
 
-Type Description: String
-### region
+   
+- reception_rooms (String)
 
+   
+- property_type (String)
 
-Type Description: String
-### detail_url
+   
+- features (String)
 
+   
+- last_sale_date (String)
 
-Type Description: String
-### bedrooms
+   
+- last_sale_price (String)
 
+   
+- import_date (String)
 
-Type Description: String
-### bathrooms
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
-Type Description: String
-### reception_rooms
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-
-Type Description: String
-### property_type
-
-
-Type Description: String
-### features
-
-
-Type Description: String
-### last_sale_date
-
-
-Type Description: String
-### last_sale_price
-
-
-Type Description: String
-### import_date
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -95,9 +76,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

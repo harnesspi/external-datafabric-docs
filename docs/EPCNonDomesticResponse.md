@@ -1,159 +1,119 @@
 # EPCNonDomesticResponse
-## Description
-
 ## Properties
-### lmk_key
+- lmk_key (String)
 
+   
+- address1 (String)
 
-Type Description: String
-### address1
+   
+- address2 (String)
 
+   
+- address3 (String)
 
-Type Description: String
-### address2
+   
+- postcode (String)
 
+   
+- building_reference_number (String)
 
-Type Description: String
-### address3
+   
+- asset_rating (String)
 
+   
+- asset_rating_band (String)
 
-Type Description: String
-### postcode
+   
+- property_type (String)
 
+   
+- inspection_date (String)
 
-Type Description: String
-### building_reference_number
+   
+- local_authority (String)
 
+   
+- constituency (String)
 
-Type Description: String
-### asset_rating
+   
+- county (String)
 
+   
+- lodgement_date (String)
 
-Type Description: String
-### asset_rating_band
+   
+- transaction_type (String)
 
+   
+- new_build_benchmark (String)
 
-Type Description: String
-### property_type
+   
+- existing_stock_benchmark (String)
 
+   
+- building_level (String)
 
-Type Description: String
-### inspection_date
+   
+- main_heating_fuel (String)
 
+   
+- other_fuel_desc (String)
 
-Type Description: String
-### local_authority
+   
+- special_energy_uses (String)
 
+   
+- renewable_sources (String)
 
-Type Description: String
-### constituency
+   
+- floor_area (String)
 
+   
+- standard_emissions (String)
 
-Type Description: String
-### county
+   
+- target_emissions (String)
 
+   
+- typical_emissions (String)
 
-Type Description: String
-### lodgement_date
+   
+- building_emissions (String)
 
+   
+- aircon_present (String)
 
-Type Description: String
-### transaction_type
+   
+- aircon_kw_rating (String)
 
+   
+- estimated_aircon_kw_rating (String)
 
-Type Description: String
-### new_build_benchmark
+   
+- ac_inspection_commissioned (String)
 
+   
+- building_environment (String)
 
-Type Description: String
-### existing_stock_benchmark
+   
+- address (String)
 
+   
+- local_authority_label (String)
 
-Type Description: String
-### building_level
+   
+- constituency_label (String)
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### main_heating_fuel
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### other_fuel_desc
-
-
-Type Description: String
-### special_energy_uses
-
-
-Type Description: String
-### renewable_sources
-
-
-Type Description: String
-### floor_area
-
-
-Type Description: String
-### standard_emissions
-
-
-Type Description: String
-### target_emissions
-
-
-Type Description: String
-### typical_emissions
-
-
-Type Description: String
-### building_emissions
-
-
-Type Description: String
-### aircon_present
-
-
-Type Description: String
-### aircon_kw_rating
-
-
-Type Description: String
-### estimated_aircon_kw_rating
-
-
-Type Description: String
-### ac_inspection_commissioned
-
-
-Type Description: String
-### building_environment
-
-
-Type Description: String
-### address
-
-
-Type Description: String
-### local_authority_label
-
-
-Type Description: String
-### constituency_label
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -200,9 +160,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

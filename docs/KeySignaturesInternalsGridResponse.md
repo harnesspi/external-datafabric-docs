@@ -1,75 +1,56 @@
 # KeySignaturesInternalsGridResponse
-## Description
-
 ## Properties
-### matched
+- matched (String)
 
+   
+- signature_hpid (String)
 
-Type Description: String
-### signature_hpid
+   
+- internal_hpid ([ValueLink](ValueLink.md) for [InternalHPIDResponse](InternalHPIDResponse.md))
 
+   
+- organisation ([ValueLink](ValueLink.md) for [SignatureKeyMatchingAttributeResponse](SignatureKeyMatchingAttributeResponse.md))
 
-Type Description: String
-### internal_hpid
+   
+- land (String)
 
+   
+- plot (String)
 
-Type Description: ValueLink for InternalHPIDResponse
-### organisation
+   
+- block (String)
 
+   
+- level ([ValueLink](ValueLink.md) for [SignatureKeyMatchingAttributeResponse](SignatureKeyMatchingAttributeResponse.md))
 
-Type Description: ValueLink for SignatureKeyMatchingAttributeResponse
-### land
+   
+- arch (String)
 
+   
+- unit ([ValueLink](ValueLink.md) for [SignatureKeyMatchingAttributeResponse](SignatureKeyMatchingAttributeResponse.md))
 
-Type Description: String
-### plot
+   
+- flat ([ValueLink](ValueLink.md) for [SignatureKeyMatchingAttributeResponse](SignatureKeyMatchingAttributeResponse.md))
 
+   
+- room (String)
 
-Type Description: String
-### block
+   
+- parking (String)
 
+   
+- description (String)
 
-Type Description: String
-### level
+   
+- object_type (String)
 
+   
+- keys (Array of [KeyValueLinks](KeyValueLink.md) for [SignatureInternalKeyResponse](SignatureInternalKeyResponse.md))
 
-Type Description: ValueLink for SignatureKeyMatchingAttributeResponse
-### arch
+   
+- signature (String)
 
-
-Type Description: String
-### unit
-
-
-Type Description: ValueLink for SignatureKeyMatchingAttributeResponse
-### flat
-
-
-Type Description: ValueLink for SignatureKeyMatchingAttributeResponse
-### room
-
-
-Type Description: String
-### parking
-
-
-Type Description: String
-### description
-
-
-Type Description: String
-### object_type
-
-
-Type Description: String
-### keys
-
-
-Type Description: Array of KeyValueLinks for SignatureInternalKeyResponse
-### signature
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -96,11 +77,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
-- [InternalHPIDResponse](InternalHPIDResponse.md)
-- [ValueLink](ValueLink.md)
-- [SignatureKeyMatchingAttributeResponse](SignatureKeyMatchingAttributeResponse.md)
-- [SignatureInternalKeyResponse](SignatureInternalKeyResponse.md)
-- [KeyValueLink](KeyValueLink.md)
 

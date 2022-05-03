@@ -1,23 +1,17 @@
 # TitleDetailsDataGridResponse
-## Description
-
 ## Properties
-### description
+- description (String)
 
+   
+- form_url (String)
 
-Type Description: String
-### form_url
+   
+- title_number (String)
 
+   
+- id (String)
 
-Type Description: String
-### title_number
-
-
-Type Description: String
-### id
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -31,6 +25,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

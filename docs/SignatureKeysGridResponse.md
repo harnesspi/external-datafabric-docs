@@ -1,19 +1,14 @@
 # SignatureKeysGridResponse
-## Description
-
 ## Properties
-### signature_hpid
+- signature_hpid (String)
 
+   
+- key_type (String)
 
-Type Description: String
-### key_type
+   
+- key_value (String)
 
-
-Type Description: String
-### key_value
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -26,6 +21,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

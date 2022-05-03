@@ -2,14 +2,15 @@
 
 
 ## GET /marketviewlisting/{parameterListingId}
-- Response 200 (application/json)
-[MarketViewListingResponse](MarketViewListingResponse.md)
+### Response 200 (application/json)
+Content: [MarketViewListingResponse](MarketViewListingResponse.md)
 
-    ```
-   /MarketViewListing/R100009982
-    ```
-    ```json
-   {
+#### Example 1
+```
+/MarketViewListing/R100009982
+```
+```json
+{
   "listing_id": "R100009982",
   "summary": "Light industrial facility for sale in Units 23 & 24 Premier Industrial Estate, Leys Road, Stourbridge, West Midlands, DY5 3UP, DY5",
   "description": "The property is located on the ever popular Premier Industrial Estate which has a high tenant and investor demand.\r<br />The units have fully refurbished accommodation and are let to two good tenants on new 10 year full repairing leases with rent reviews to the greater of RPI or market rent.",
@@ -573,12 +574,13 @@
   ],
   "no_signatures": []
 }
-    ```
-    ```
-   /MarketViewListing/Z1458669
-    ```
-    ```json
-   {
+```
+#### Example 2
+```
+/MarketViewListing/Z1458669
+```
+```json
+{
   "listing_id": "Z1458669",
   "summary": "2 bed flat to rent in Ottawa Court, Broxbourne, Hertfordshire EN10 - Zoopla",
   "description": "*double bedrooms, popular canada fields development*<br>Christopher Stokes are delighted to offer this Two Bedroom Modern Apartment situated in the popular Canada Fields Development. The property Benefits double Bedrooms, allocated parking and is located within close proximity to Brookfield Farm Shopping Centre. Available End of .<br><br><strong>Key Features</strong><br>Double Bedrooms<br>First Floor Apartment<br>Easy Access to A10<br>Allocated Parking<br>Close Proximity to Brookfield Farm Shopping Centre<br>Modern Interior<br>Available End of September<br><br><strong></strong><br><br><strong>Open Plan Lounge/Kitchen</strong><br>16' 11\" x 12' 1\" (5.15m x 3.68m)<br><br><strong>Bedroom</strong><br>8' 5\" x 7' 7\" (2.56m x 2.31m)<br><br><strong>Bedroom</strong><br>12' 4\" x 9' 1\" (3.76m x 2.77m)<br><br><strong>Bathroom</strong>",
@@ -645,4 +647,4 @@
     }
   ]
 }
-    ```
+```

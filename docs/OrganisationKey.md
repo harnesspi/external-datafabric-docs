@@ -2,14 +2,15 @@
 
 
 ## GET /organisationkey/{parameterKeyType}/{parameterKeyValue}
-- Response 200 (application/json)
-[OrganisationKeyResponse](OrganisationKeyResponse.md)
+### Response 200 (application/json)
+Content: [OrganisationKeyResponse](OrganisationKeyResponse.md)
 
-    ```
-   /OrganisationKey/CompaniesHouseRegNo/00000402
-    ```
-    ```json
-   {
+#### Example 1
+```
+/OrganisationKey/CompaniesHouseRegNo/00000402
+```
+```json
+{
   "key_type": "CompaniesHouseRegNo",
   "key_value": "00000402",
   "description": null,
@@ -29,4 +30,4 @@
     }
   ]
 }
-    ```
+```

@@ -1,151 +1,113 @@
 # MarketViewListingResponse
-## Description
-
 ## Properties
-### listing_id
+- listing_id (String)
 
+   
+- summary (String)
 
-Type Description: String
-### summary
+   
+- description (String)
 
+   
+- asking_price (String)
 
-Type Description: String
-### description
+   
+- display_address (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### asking_price
+   
+- import_date (String)
 
+   
+- update_date (String)
 
-Type Description: String
-### display_address
+   
+- inactive_date (String)
 
+   
+- listing_url (String)
 
-Type Description: String
-### postcode
+   
+- property_type (String)
 
+   
+- bedrooms (String)
 
-Type Description: String
-### import_date
+   
+- bathrooms (String)
 
+   
+- reception_rooms (String)
 
-Type Description: String
-### update_date
+   
+- size_sq_feet (String)
 
+   
+- category (String)
 
-Type Description: String
-### inactive_date
+   
+- transaction_type (String)
 
+   
+- condition (String)
 
-Type Description: String
-### listing_url
+   
+- tenure (String)
 
+   
+- retirement_home (String)
 
-Type Description: String
-### property_type
+   
+- shared_ownership (String)
 
+   
+- display_size (String)
 
-Type Description: String
-### bedrooms
+   
+- price_paid_guid (String)
 
+   
+- price_paid_address_string (String)
 
-Type Description: String
-### bathrooms
+   
+- latitude (String)
 
+   
+- longitude (String)
 
-Type Description: String
-### reception_rooms
+   
+- x (String)
 
+   
+- y (String)
 
-Type Description: String
-### size_sq_feet
+   
+- agent_brand (String)
 
+   
+- agent_branch (String)
 
-Type Description: String
-### category
+   
+- updated_on (String)
 
+   
+- update_reason (String)
 
-Type Description: String
-### transaction_type
+   
+- transactions (Array of [MarketViewListingTransactionsGridResponse](MarketViewListingTransactionsGridResponse.md))
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### condition
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### tenure
-
-
-Type Description: String
-### retirement_home
-
-
-Type Description: String
-### shared_ownership
-
-
-Type Description: String
-### display_size
-
-
-Type Description: String
-### price_paid_guid
-
-
-Type Description: String
-### price_paid_address_string
-
-
-Type Description: String
-### latitude
-
-
-Type Description: String
-### longitude
-
-
-Type Description: String
-### x
-
-
-Type Description: String
-### y
-
-
-Type Description: String
-### agent_brand
-
-
-Type Description: String
-### agent_branch
-
-
-Type Description: String
-### updated_on
-
-
-Type Description: String
-### update_reason
-
-
-Type Description: String
-### transactions
-
-
-Type Description: Array of MarketViewListingTransactionsGridResponse
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -190,10 +152,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MarketViewListingTransactionsGridResponse](MarketViewListingTransactionsGridResponse.md)
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

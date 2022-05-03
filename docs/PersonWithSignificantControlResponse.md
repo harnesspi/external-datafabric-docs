@@ -1,135 +1,101 @@
 # PersonWithSignificantControlResponse
-## Description
-
 ## Properties
-### e_tag
+- e_tag (String)
 
+   
+- person_hpid (String)
 
-Type Description: String
-### person_hpid
+   
+- kind (String)
 
+   
+- title (String)
 
-Type Description: String
-### kind
+   
+- name (String)
 
+   
+- month_of_birth (String)
 
-Type Description: String
-### title
+   
+- nationality (String)
 
+   
+- country_of_residence (String)
 
-Type Description: String
-### name
+   
+- registration_number (String)
 
+   
+- country_registered (String)
 
-Type Description: String
-### month_of_birth
+   
+- legal_authority (String)
 
+   
+- place_registered (String)
 
-Type Description: String
-### nationality
+   
+- notified_on (String)
 
+   
+- legal_form (String)
 
-Type Description: String
-### country_of_residence
+   
+- link (String)
 
+   
+- snapshot_date (String)
 
-Type Description: String
-### registration_number
+   
+- premises (String)
 
+   
+- address_line1 (String)
 
-Type Description: String
-### country_registered
+   
+- address_line2 (String)
 
+   
+- locality (String)
 
-Type Description: String
-### legal_authority
+   
+- postal_code (String)
 
+   
+- county (String)
 
-Type Description: String
-### place_registered
+   
+- region (String)
 
+   
+- country (String)
 
-Type Description: String
-### notified_on
+   
+- company_number (String)
 
+   
+- company_name (String)
 
-Type Description: String
-### legal_form
+   
+- sic_code_sic_text1 (String)
 
+   
+- natures_of_control (String)
 
-Type Description: String
-### link
+   
+- person_with_significant_control_companies_data_grid (Array of [PersonWithSignificantControlCompaniesDataGridResponse](PersonWithSignificantControlCompaniesDataGridResponse.md))
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### snapshot_date
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### premises
-
-
-Type Description: String
-### address_line1
-
-
-Type Description: String
-### address_line2
-
-
-Type Description: String
-### locality
-
-
-Type Description: String
-### postal_code
-
-
-Type Description: String
-### county
-
-
-Type Description: String
-### region
-
-
-Type Description: String
-### country
-
-
-Type Description: String
-### company_number
-
-
-Type Description: String
-### company_name
-
-
-Type Description: String
-### sic_code_sic_text1
-
-
-Type Description: String
-### natures_of_control
-
-
-Type Description: String
-### person_with_significant_control_companies_data_grid
-
-
-Type Description: Array of PersonWithSignificantControlCompaniesDataGridResponse
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -170,10 +136,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [PersonWithSignificantControlCompaniesDataGridResponse](PersonWithSignificantControlCompaniesDataGridResponse.md)
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

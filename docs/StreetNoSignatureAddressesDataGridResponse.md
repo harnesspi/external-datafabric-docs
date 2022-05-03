@@ -1,47 +1,35 @@
 # StreetNoSignatureAddressesDataGridResponse
-## Description
-
 ## Properties
-### source_name
+- source_name (String)
 
+   
+- row_key (String)
 
-Type Description: String
-### row_key
+   
+- row_key_subfix (String)
 
+   
+- address (String)
 
-Type Description: String
-### row_key_subfix
+   
+- postcode (String)
 
+   
+- building (String)
 
-Type Description: String
-### address
+   
+- freehold (String)
 
+   
+- estate (String)
 
-Type Description: String
-### postcode
+   
+- keys (String)
 
+   
+- url_query (String)
 
-Type Description: String
-### building
-
-
-Type Description: String
-### freehold
-
-
-Type Description: String
-### estate
-
-
-Type Description: String
-### keys
-
-
-Type Description: String
-### url_query
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -61,6 +49,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

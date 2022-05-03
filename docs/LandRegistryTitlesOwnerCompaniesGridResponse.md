@@ -1,31 +1,23 @@
 # LandRegistryTitlesOwnerCompaniesGridResponse
-## Description
-
 ## Properties
-### registration_no
+- registration_no (String)
 
+   
+- company (String)
 
-Type Description: String
-### company
+   
+- name (String)
 
+   
+- country (String)
 
-Type Description: String
-### name
+   
+- description (String)
 
+   
+- titles (String)
 
-Type Description: String
-### country
-
-
-Type Description: String
-### description
-
-
-Type Description: String
-### titles
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -41,6 +33,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

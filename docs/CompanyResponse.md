@@ -1,179 +1,134 @@
 # CompanyResponse
-## Description
-
 ## Properties
-### company_number
+- company_number (String)
 
+   
+- company_name (String)
 
-Type Description: String
-### company_name
+   
+- reg_address_care_of (String)
 
+   
+- reg_address_po_box (String)
 
-Type Description: String
-### reg_address_care_of
+   
+- reg_address_address_line1 (String)
 
+   
+- reg_address_address_line2 (String)
 
-Type Description: String
-### reg_address_po_box
+   
+- reg_address_post_town (String)
 
+   
+- reg_address_county (String)
 
-Type Description: String
-### reg_address_address_line1
+   
+- reg_address_country (String)
 
+   
+- reg_address_post_code (String)
 
-Type Description: String
-### reg_address_address_line2
+   
+- snapshot_date (String)
 
+   
+- hpids (String)
 
-Type Description: String
-### reg_address_post_town
+   
+- company_category (String)
 
+   
+- company_status (String)
 
-Type Description: String
-### reg_address_county
+   
+- country_of_origin (String)
 
+   
+- dissolution_date (String)
 
-Type Description: String
-### reg_address_country
+   
+- incorporation_date (String)
 
+   
+- accounts_account_ref_day (String)
 
-Type Description: String
-### reg_address_post_code
+   
+- accounts_account_ref_month (String)
 
+   
+- accounts_next_due_date (String)
 
-Type Description: String
-### snapshot_date
+   
+- accounts_last_made_up_date (String)
 
+   
+- accounts_account_category (String)
 
-Type Description: String
-### hpids
+   
+- returns_next_due_date (String)
 
+   
+- returns_last_made_up_date (String)
 
-Type Description: String
-### company_category
+   
+- sic_code_sic_text1 (String)
 
+   
+- sic_code_sic_text2 (String)
 
-Type Description: String
-### company_status
+   
+- sic_code_sic_text3 (String)
 
+   
+- sic_code_sic_text4 (String)
 
-Type Description: String
-### country_of_origin
+   
+- limited_partnerships_num_gen_partners (String)
 
+   
+- limited_partnerships_num_lim_partners (String)
 
-Type Description: String
-### dissolution_date
+   
+- conf_stmt_next_due_date (String)
 
+   
+- conf_stmt_last_made_up_date (String)
 
-Type Description: String
-### incorporation_date
+   
+- mortgages_num_mort_charges (String)
 
+   
+- mortgages_num_mort_outstanding (String)
 
-Type Description: String
-### accounts_account_ref_day
+   
+- mortgages_num_mort_part_satisfied (String)
 
+   
+- mortgages_num_mort_satisfied (String)
 
-Type Description: String
-### accounts_account_ref_month
+   
+- historic_addresses (Array of [CompaniesHistoricAddressesDataGridResponse](CompaniesHistoricAddressesDataGridResponse.md))
 
+   
+- historic_names (Array of [CompaniesHistoricNamesDataGridResponse](CompaniesHistoricNamesDataGridResponse.md))
 
-Type Description: String
-### accounts_next_due_date
+   
+- company_appointments_data_grid (Array of [CompanyAppointmentsDataGridResponse](CompanyAppointmentsDataGridResponse.md))
 
+   
+- company_persons_with_significant_control_data_grid (Array of [CompanyPersonsWithSignificantControlDataGridResponse](CompanyPersonsWithSignificantControlDataGridResponse.md))
 
-Type Description: String
-### accounts_last_made_up_date
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
-Type Description: String
-### accounts_account_category
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-
-Type Description: String
-### returns_next_due_date
-
-
-Type Description: String
-### returns_last_made_up_date
-
-
-Type Description: String
-### sic_code_sic_text1
-
-
-Type Description: String
-### sic_code_sic_text2
-
-
-Type Description: String
-### sic_code_sic_text3
-
-
-Type Description: String
-### sic_code_sic_text4
-
-
-Type Description: String
-### limited_partnerships_num_gen_partners
-
-
-Type Description: String
-### limited_partnerships_num_lim_partners
-
-
-Type Description: String
-### conf_stmt_next_due_date
-
-
-Type Description: String
-### conf_stmt_last_made_up_date
-
-
-Type Description: String
-### mortgages_num_mort_charges
-
-
-Type Description: String
-### mortgages_num_mort_outstanding
-
-
-Type Description: String
-### mortgages_num_mort_part_satisfied
-
-
-Type Description: String
-### mortgages_num_mort_satisfied
-
-
-Type Description: String
-### historic_addresses
-
-
-Type Description: Array of CompaniesHistoricAddressesDataGridResponse
-### historic_names
-
-
-Type Description: Array of CompaniesHistoricNamesDataGridResponse
-### company_appointments_data_grid
-
-
-Type Description: Array of CompanyAppointmentsDataGridResponse
-### company_persons_with_significant_control_data_grid
-
-
-Type Description: Array of CompanyPersonsWithSignificantControlDataGridResponse
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -225,13 +180,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [CompaniesHistoricAddressesDataGridResponse](CompaniesHistoricAddressesDataGridResponse.md)
-- [CompaniesHistoricNamesDataGridResponse](CompaniesHistoricNamesDataGridResponse.md)
-- [CompanyAppointmentsDataGridResponse](CompanyAppointmentsDataGridResponse.md)
-- [CompanyPersonsWithSignificantControlDataGridResponse](CompanyPersonsWithSignificantControlDataGridResponse.md)
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

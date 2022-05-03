@@ -1,103 +1,77 @@
 # VOAAssessmentResponse
-## Description
-
 ## Properties
-### assessment_reference
+- assessment_reference (String)
 
+   
+- list_year (String)
 
-Type Description: String
-### list_year
+   
+- uarn (String)
 
+   
+- scheme_reference (String)
 
-Type Description: String
-### uarn
+   
+- primary_description_text (String)
 
+   
+- total_area (String)
 
-Type Description: String
-### scheme_reference
+   
+- sub_total (String)
 
+   
+- total_value (String)
 
-Type Description: String
-### primary_description_text
+   
+- adopted_rv (String)
 
+   
+- ba_name (String)
 
-Type Description: String
-### total_area
+   
+- from_date (String)
 
+   
+- to_date (String)
 
-Type Description: String
-### sub_total
+   
+- scat_code_only (String)
 
+   
+- unit_of_measurement (String)
 
-Type Description: String
-### total_value
+   
+- unadjusted_price (String)
 
+   
+- cp_spaces (String)
 
-Type Description: String
-### adopted_rv
+   
+- cp_spaces_value (String)
 
+   
+- cp_area (String)
 
-Type Description: String
-### ba_name
+   
+- cp_area_value (String)
 
+   
+- cp_total (String)
 
-Type Description: String
-### from_date
+   
+- pm_value (String)
 
+   
+- total_before_adj (String)
 
-Type Description: String
-### to_date
+   
+- total_adj (String)
 
+   
+- voa_assessment_details (Array of [VOAAssessmentDetailsGridResponse](VOAAssessmentDetailsGridResponse.md))
 
-Type Description: String
-### scat_code_only
-
-
-Type Description: String
-### unit_of_measurement
-
-
-Type Description: String
-### unadjusted_price
-
-
-Type Description: String
-### cp_spaces
-
-
-Type Description: String
-### cp_spaces_value
-
-
-Type Description: String
-### cp_area
-
-
-Type Description: String
-### cp_area_value
-
-
-Type Description: String
-### cp_total
-
-
-Type Description: String
-### pm_value
-
-
-Type Description: String
-### total_before_adj
-
-
-Type Description: String
-### total_adj
-
-
-Type Description: String
-### voa_assessment_details
-
-
-Type Description: Array of VOAAssessmentDetailsGridResponse
+   
 
 ## Schema
 ```json
@@ -130,7 +104,4 @@ Type Description: Array of VOAAssessmentDetailsGridResponse
        "voa_assessment_details" : {"type" : "array", "items" : {"$ref" : "/schemas/VOAAssessmentDetailsGrid"}
 }
 ```
-
-## Related Entities
-- [VOAAssessmentDetailsGridResponse](VOAAssessmentDetailsGridResponse.md)
 

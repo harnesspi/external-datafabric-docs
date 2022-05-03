@@ -1,27 +1,20 @@
 # StreetResponse
-## Description
-
 ## Properties
-### usrn
+- usrn (String)
 
+   
+- street (String)
 
-Type Description: String
-### street
+   
+- street_signatures (Array of [StreetSignaturesGridResponse](StreetSignaturesGridResponse.md))
 
+   
+- street_no_signature_addresses_data_grid (Array of [StreetNoSignatureAddressesDataGridResponse](StreetNoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### street_signatures
+   
+- listings (Array of [StreetRelatedListingsGridResponse](StreetRelatedListingsGridResponse.md))
 
-
-Type Description: Array of StreetSignaturesGridResponse
-### street_no_signature_addresses_data_grid
-
-
-Type Description: Array of StreetNoSignatureAddressesDataGridResponse
-### listings
-
-
-Type Description: Array of StreetRelatedListingsGridResponse
+   
 
 ## Schema
 ```json
@@ -35,9 +28,4 @@ Type Description: Array of StreetRelatedListingsGridResponse
        "listings" : {"type" : "array", "items" : {"$ref" : "/schemas/StreetRelatedListingsGrid"}
 }
 ```
-
-## Related Entities
-- [StreetSignaturesGridResponse](StreetSignaturesGridResponse.md)
-- [StreetNoSignatureAddressesDataGridResponse](StreetNoSignatureAddressesDataGridResponse.md)
-- [StreetRelatedListingsGridResponse](StreetRelatedListingsGridResponse.md)
 

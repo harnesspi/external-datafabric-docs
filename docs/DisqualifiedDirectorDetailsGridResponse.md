@@ -1,39 +1,29 @@
 # DisqualifiedDirectorDetailsGridResponse
-## Description
-
 ## Properties
-### disqual_star_date
+- disqual_star_date (String)
 
+   
+- disqual_end_date (String)
 
-Type Description: String
-### disqual_end_date
+   
+- section_of_the_act (String)
 
+   
+- disqualification_type (String)
 
-Type Description: String
-### section_of_the_act
+   
+- disqual_order_undertaking_date (String)
 
+   
+- case_number (String)
 
-Type Description: String
-### disqualification_type
+   
+- company_name (String)
 
+   
+- court_name (String)
 
-Type Description: String
-### disqual_order_undertaking_date
-
-
-Type Description: String
-### case_number
-
-
-Type Description: String
-### company_name
-
-
-Type Description: String
-### court_name
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -51,6 +41,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

@@ -1,35 +1,26 @@
 # ICIJEntityIntermediariesDataGridResponse
-## Description
-
 ## Properties
-### intermediary_id
+- intermediary_id ([ValueLink](ValueLink.md) for [object](object.md))
 
+   
+- intermediary_type (String)
 
-Type Description: ValueLink for object
-### intermediary_type
+   
+- status (String)
 
+   
+- start_date (String)
 
-Type Description: String
-### status
+   
+- end_date (String)
 
+   
+- name (String)
 
-Type Description: String
-### start_date
+   
+- countries (String)
 
-
-Type Description: String
-### end_date
-
-
-Type Description: String
-### name
-
-
-Type Description: String
-### countries
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -46,7 +37,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
-- [ValueLink](ValueLink.md)
 

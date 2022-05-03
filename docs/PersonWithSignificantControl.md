@@ -2,14 +2,15 @@
 
 
 ## GET /personwithsignificantcontrol/{parameterETag}
-- Response 200 (application/json)
-[PersonWithSignificantControlResponse](PersonWithSignificantControlResponse.md)
+### Response 200 (application/json)
+Content: [PersonWithSignificantControlResponse](PersonWithSignificantControlResponse.md)
 
-    ```
-   /PersonWithSignificantControl/000014ef02b2ecd132eed3d81e27616771376951
-    ```
-    ```json
-   {
+#### Example 1
+```
+/PersonWithSignificantControl/000014ef02b2ecd132eed3d81e27616771376951
+```
+```json
+{
   "e_tag": "000014ef02b2ecd132eed3d81e27616771376951",
   "person_hpid": "c8c41aa1-9f9c-185a-f952-b00be15ed482",
   "kind": "individual-person-with-significant-control",
@@ -106,12 +107,13 @@
   ],
   "no_signatures": []
 }
-    ```
-    ```
-   /PersonWithSignificantControl/41b1f09e415fd5a1c3634f58bdcc1ece65e862b8
-    ```
-    ```json
-   {
+```
+#### Example 2
+```
+/PersonWithSignificantControl/41b1f09e415fd5a1c3634f58bdcc1ece65e862b8
+```
+```json
+{
   "e_tag": "41b1f09e415fd5a1c3634f58bdcc1ece65e862b8",
   "person_hpid": "9084ae8d-4f51-5cc1-5843-0002b95888a6",
   "kind": "individual-person-with-significant-control",
@@ -232,4 +234,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

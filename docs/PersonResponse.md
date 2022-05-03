@@ -1,23 +1,17 @@
 # PersonResponse
-## Description
-
 ## Properties
-### person_hpid
+- person_hpid (String)
 
+   
+- name (String)
 
-Type Description: String
-### name
+   
+- month_of_birth (String)
 
+   
+- person_records_data_grid (Array of [PersonRecordsDataGridResponse](PersonRecordsDataGridResponse.md))
 
-Type Description: String
-### month_of_birth
-
-
-Type Description: String
-### person_records_data_grid
-
-
-Type Description: Array of PersonRecordsDataGridResponse
+   
 
 ## Schema
 ```json
@@ -30,7 +24,4 @@ Type Description: Array of PersonRecordsDataGridResponse
        "person_records_data_grid" : {"type" : "array", "items" : {"$ref" : "/schemas/PersonRecordsDataGrid"}
 }
 ```
-
-## Related Entities
-- [PersonRecordsDataGridResponse](PersonRecordsDataGridResponse.md)
 

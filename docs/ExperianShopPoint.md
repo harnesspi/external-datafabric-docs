@@ -2,6 +2,6 @@
 
 
 ## GET /experianshoppoint/{parameterLocationURN}
-- Response 200 (application/json)
-[ExperianShopPointResponse](ExperianShopPointResponse.md)
+### Response 200 (application/json)
+Content: [ExperianShopPointResponse](ExperianShopPointResponse.md)
 

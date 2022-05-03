@@ -1,111 +1,83 @@
 # FoodStandardsAgencyResponse
-## Description
-
 ## Properties
-### fhrsid
+- fhrsid (String)
 
+   
+- local_authority_business_id (String)
 
-Type Description: String
-### local_authority_business_id
+   
+- business_name (String)
 
+   
+- address_line1 (String)
 
-Type Description: String
-### business_name
+   
+- address_line2 (String)
 
+   
+- address_line3 (String)
 
-Type Description: String
-### address_line1
+   
+- address_line4 (String)
 
+   
+- post_code (String)
 
-Type Description: String
-### address_line2
+   
+- business_type (String)
 
+   
+- business_type_id (String)
 
-Type Description: String
-### address_line3
+   
+- scheme_type (String)
 
+   
+- new_rating_pending (String)
 
-Type Description: String
-### address_line4
+   
+- local_authority_code (String)
 
+   
+- local_authority_name (String)
 
-Type Description: String
-### post_code
+   
+- longitude (String)
 
+   
+- latitude (String)
 
-Type Description: String
-### business_type
+   
+- rating_date (String)
 
+   
+- rating_key (String)
 
-Type Description: String
-### business_type_id
+   
+- rating_value (String)
 
+   
+- hygiene (String)
 
-Type Description: String
-### scheme_type
+   
+- structural (String)
 
+   
+- confidence_in_management (String)
 
-Type Description: String
-### new_rating_pending
+   
+- snapshot_date (String)
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### local_authority_code
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### local_authority_name
-
-
-Type Description: String
-### longitude
-
-
-Type Description: String
-### latitude
-
-
-Type Description: String
-### rating_date
-
-
-Type Description: String
-### rating_key
-
-
-Type Description: String
-### rating_value
-
-
-Type Description: String
-### hygiene
-
-
-Type Description: String
-### structural
-
-
-Type Description: String
-### confidence_in_management
-
-
-Type Description: String
-### snapshot_date
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -140,9 +112,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

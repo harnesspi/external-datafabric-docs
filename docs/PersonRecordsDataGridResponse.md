@@ -1,35 +1,26 @@
 # PersonRecordsDataGridResponse
-## Description
-
 ## Properties
-### source_name
+- source_name (String)
 
+   
+- month_of_birth (String)
 
-Type Description: String
-### month_of_birth
+   
+- full_match (String)
 
+   
+- row_key (String)
 
-Type Description: String
-### full_match
+   
+- row_key_subfix (String)
 
+   
+- company (String)
 
-Type Description: String
-### row_key
+   
+- url_query (String)
 
-
-Type Description: String
-### row_key_subfix
-
-
-Type Description: String
-### company
-
-
-Type Description: String
-### url_query
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -46,6 +37,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

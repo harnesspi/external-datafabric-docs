@@ -1,75 +1,56 @@
 # MultiInternalAddressesGridResponse
-## Description
-
 ## Properties
-### signature_hpid
+- signature_hpid (String)
 
+   
+- internal_hpid (String)
 
-Type Description: String
-### internal_hpid
+   
+- organisation (String)
 
+   
+- land (String)
 
-Type Description: String
-### organisation
+   
+- plot (String)
 
+   
+- block (String)
 
-Type Description: String
-### land
+   
+- level (String)
 
+   
+- arch (String)
 
-Type Description: String
-### plot
+   
+- unit (String)
 
+   
+- flat (String)
 
-Type Description: String
-### block
+   
+- room (String)
 
+   
+- parking (String)
 
-Type Description: String
-### level
+   
+- description (String)
 
+   
+- object_type (String)
 
-Type Description: String
-### arch
+   
+- keys (String)
 
+   
+- signature (String)
 
-Type Description: String
-### unit
+   
+- url_query ([KeyValueLink](KeyValueLink.md) for [object](object.md))
 
-
-Type Description: String
-### flat
-
-
-Type Description: String
-### room
-
-
-Type Description: String
-### parking
-
-
-Type Description: String
-### description
-
-
-Type Description: String
-### object_type
-
-
-Type Description: String
-### keys
-
-
-Type Description: String
-### signature
-
-
-Type Description: String
-### url_query
-
-
-Type Description: KeyValueLink for object
+   
 
 ## Schema
 ```json
@@ -96,7 +77,4 @@ Type Description: KeyValueLink for object
     }
 }
 ```
-
-## Related Entities
-- [KeyValueLink](KeyValueLink.md)
 

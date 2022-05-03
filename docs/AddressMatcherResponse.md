@@ -1,43 +1,32 @@
 # AddressMatcherResponse
-## Description
-
 ## Properties
-### hpid
+- hpid (String)
 
+   
+- address (String)
 
-Type Description: String
-### address
+   
+- hpids (String)
 
+   
+- street (String)
 
-Type Description: String
-### hpids
+   
+- usrn (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### street
+   
+- hpid ([ValueLink](ValueLink.md) for [MultiSignatureResponse](MultiSignatureResponse.md))
 
+   
+- usrn ([ValueLink](ValueLink.md) for [StreetResponse](StreetResponse.md))
 
-Type Description: String
-### usrn
+   
+- postcode ([ValueLink](ValueLink.md) for [SignatureKeyResponse](SignatureKeyResponse.md))
 
-
-Type Description: String
-### postcode
-
-
-Type Description: String
-### hpid
-
-
-Type Description: ValueLink for MultiSignatureResponse
-### usrn
-
-
-Type Description: ValueLink for StreetResponse
-### postcode
-
-
-Type Description: ValueLink for SignatureKeyResponse
+   
 
 ## Schema
 ```json
@@ -56,10 +45,4 @@ Type Description: ValueLink for SignatureKeyResponse
     }
 }
 ```
-
-## Related Entities
-- [MultiSignatureResponse](MultiSignatureResponse.md)
-- [ValueLink](ValueLink.md)
-- [StreetResponse](StreetResponse.md)
-- [SignatureKeyResponse](SignatureKeyResponse.md)
 

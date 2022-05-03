@@ -1,19 +1,14 @@
 # AddressFinderResponse
-## Description
-
 ## Properties
-### hpid
+- hpid (String)
 
+   
+- address (String)
 
-Type Description: String
-### address
+   
+- hpid ([ValueLink](ValueLink.md) for [MultiSignatureResponse](MultiSignatureResponse.md))
 
-
-Type Description: String
-### hpid
-
-
-Type Description: ValueLink for MultiSignatureResponse
+   
 
 ## Schema
 ```json
@@ -26,8 +21,4 @@ Type Description: ValueLink for MultiSignatureResponse
     }
 }
 ```
-
-## Related Entities
-- [MultiSignatureResponse](MultiSignatureResponse.md)
-- [ValueLink](ValueLink.md)
 

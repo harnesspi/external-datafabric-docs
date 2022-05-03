@@ -2,14 +2,15 @@
 
 
 ## GET /landregistryrestrictivecovenantaddress/{parameterID}/{parameterEntryNumber}
-- Response 200 (application/json)
-[LandRegistryRestrictiveCovenantAddressResponse](LandRegistryRestrictiveCovenantAddressResponse.md)
+### Response 200 (application/json)
+Content: [LandRegistryRestrictiveCovenantAddressResponse](LandRegistryRestrictiveCovenantAddressResponse.md)
 
-    ```
-   /LandRegistryRestrictiveCovenantAddress/0000002FB084A15F3F49DC2B4A8DFF5328EC705E/1
-    ```
-    ```json
-   {
+#### Example 1
+```
+/LandRegistryRestrictiveCovenantAddress/0000002FB084A15F3F49DC2B4A8DFF5328EC705E/1
+```
+```json
+{
   "id": "0000002FB084A15F3F49DC2B4A8DFF5328EC705E",
   "entry_number": "1",
   "address_id": "24497029",
@@ -79,4 +80,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

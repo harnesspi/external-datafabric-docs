@@ -1,67 +1,50 @@
 # LandRegistryTitleOwnershipResponse
-## Description
-
 ## Properties
-### title_number
+- title_number (String)
 
+   
+- tenure (String)
 
-Type Description: String
-### tenure
+   
+- property_address (String)
 
+   
+- district (String)
 
-Type Description: String
-### property_address
+   
+- county (String)
 
+   
+- region (String)
 
-Type Description: String
-### district
+   
+- postcode (String)
 
+   
+- multiple_address_indicator (String)
 
-Type Description: String
-### county
+   
+- price_paid (String)
 
+   
+- date_proprietor_added (String)
 
-Type Description: String
-### region
+   
+- additional_proprietor_indicator (String)
 
+   
+- land_registry_title_companies (Array of [LandRegistryTitleCompaniesGridResponse](LandRegistryTitleCompaniesGridResponse.md))
 
-Type Description: String
-### postcode
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
-Type Description: String
-### multiple_address_indicator
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-
-Type Description: String
-### price_paid
-
-
-Type Description: String
-### date_proprietor_added
-
-
-Type Description: String
-### additional_proprietor_indicator
-
-
-Type Description: String
-### land_registry_title_companies
-
-
-Type Description: Array of LandRegistryTitleCompaniesGridResponse
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -85,10 +68,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [LandRegistryTitleCompaniesGridResponse](LandRegistryTitleCompaniesGridResponse.md)
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

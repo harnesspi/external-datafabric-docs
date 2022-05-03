@@ -2,14 +2,15 @@
 
 
 ## GET /landregistrytitleowner/{parameterAddressId}/{parameterCompanyId}
-- Response 200 (application/json)
-[LandRegistryTitleOwnerResponse](LandRegistryTitleOwnerResponse.md)
+### Response 200 (application/json)
+Content: [LandRegistryTitleOwnerResponse](LandRegistryTitleOwnerResponse.md)
 
-    ```
-   /LandRegistryTitleOwner/9F0459F0-6702-55C4-9888-E30028D3821E/5B1E336F-761F-296D-781F-00004071C41F
-    ```
-    ```json
-   {
+#### Example 1
+```
+/LandRegistryTitleOwner/9F0459F0-6702-55C4-9888-E30028D3821E/5B1E336F-761F-296D-781F-00004071C41F
+```
+```json
+{
   "address": "Sixth Floor, 25 Farringdon Street, London EC4A 4AB",
   "postcode": "EC4A 4AB",
   "companies": [
@@ -132,4 +133,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

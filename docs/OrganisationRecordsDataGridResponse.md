@@ -1,35 +1,26 @@
 # OrganisationRecordsDataGridResponse
-## Description
-
 ## Properties
-### source_hpid
+- source_hpid (String)
 
+   
+- source_name (String)
 
-Type Description: String
-### source_name
+   
+- row_key (String)
 
+   
+- registration_number (String)
 
-Type Description: String
-### row_key
+   
+- country_registered (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### registration_number
+   
+- url_query ([KeyValueLink](KeyValueLink.md) for [object](object.md))
 
-
-Type Description: String
-### country_registered
-
-
-Type Description: String
-### postcode
-
-
-Type Description: String
-### url_query
-
-
-Type Description: KeyValueLink for object
+   
 
 ## Schema
 ```json
@@ -46,7 +37,4 @@ Type Description: KeyValueLink for object
     }
 }
 ```
-
-## Related Entities
-- [KeyValueLink](KeyValueLink.md)
 

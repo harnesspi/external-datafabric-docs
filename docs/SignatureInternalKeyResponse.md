@@ -1,23 +1,17 @@
 # SignatureInternalKeyResponse
-## Description
-
 ## Properties
-### key_type
+- key_type (String)
 
+   
+- key_value (String)
 
-Type Description: String
-### key_value
+   
+- internal_key_signature_internals (Array of [InternalKeySignaturesInternalsGridResponse](InternalKeySignaturesInternalsGridResponse.md))
 
+   
+- addresses (Array of [SignatureInternalKeyAddressesGridResponse](SignatureInternalKeyAddressesGridResponse.md))
 
-Type Description: String
-### internal_key_signature_internals
-
-
-Type Description: Array of InternalKeySignaturesInternalsGridResponse
-### addresses
-
-
-Type Description: Array of SignatureInternalKeyAddressesGridResponse
+   
 
 ## Schema
 ```json
@@ -30,8 +24,4 @@ Type Description: Array of SignatureInternalKeyAddressesGridResponse
        "addresses" : {"type" : "array", "items" : {"$ref" : "/schemas/SignatureInternalKeyAddressesGrid"}
 }
 ```
-
-## Related Entities
-- [InternalKeySignaturesInternalsGridResponse](InternalKeySignaturesInternalsGridResponse.md)
-- [SignatureInternalKeyAddressesGridResponse](SignatureInternalKeyAddressesGridResponse.md)
 

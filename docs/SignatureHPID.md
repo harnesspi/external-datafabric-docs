@@ -2,14 +2,15 @@
 
 
 ## GET /signaturehpid/{parameterSignatureHPID}
-- Response 200 (application/json)
-[SignatureHPIDResponse](SignatureHPIDResponse.md)
+### Response 200 (application/json)
+Content: [SignatureHPIDResponse](SignatureHPIDResponse.md)
 
-    ```
-   /SignatureHPID/87fb49ea-9964-4612-bf91-9796ea75247e
-    ```
-    ```json
-   {
+#### Example 1
+```
+/SignatureHPID/87fb49ea-9964-4612-bf91-9796ea75247e
+```
+```json
+{
   "signature_hpid": "87fb49ea-9964-4612-bf91-9796ea75247e",
   "building": null,
   "building_start_number": "2",
@@ -315,4 +316,4 @@
     }
   ]
 }
-    ```
+```

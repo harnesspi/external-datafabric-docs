@@ -1,15 +1,11 @@
 # CompaniesHistoricAddressesDataGridResponse
-## Description
-
 ## Properties
-### snapshot_date
+- snapshot_date (String)
 
+   
+- address (String)
 
-Type Description: String
-### address
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -21,6 +17,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

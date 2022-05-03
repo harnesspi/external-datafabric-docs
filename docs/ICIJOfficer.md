@@ -2,14 +2,15 @@
 
 
 ## GET /icijofficer/{parameterOfficerId}
-- Response 200 (application/json)
-[ICIJOfficerResponse](ICIJOfficerResponse.md)
+### Response 200 (application/json)
+Content: [ICIJOfficerResponse](ICIJOfficerResponse.md)
 
-    ```
-   /ICIJOfficer/228647
-    ```
-    ```json
-   {
+#### Example 1
+```
+/ICIJOfficer/228647
+```
+```json
+{
   "officer_id": "228647",
   "name": "Atrium Management Corp.",
   "note": "",
@@ -41,4 +42,4 @@
     }
   ]
 }
-    ```
+```

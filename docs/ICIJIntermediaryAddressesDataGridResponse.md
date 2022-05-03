@@ -1,31 +1,23 @@
 # ICIJIntermediaryAddressesDataGridResponse
-## Description
-
 ## Properties
-### address_id
+- address_id (String)
 
+   
+- address (String)
 
-Type Description: String
-### address
+   
+- name (String)
 
+   
+- countries (String)
 
-Type Description: String
-### name
+   
+- icij_source (String)
 
+   
+- note (String)
 
-Type Description: String
-### countries
-
-
-Type Description: String
-### icij_source
-
-
-Type Description: String
-### note
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -41,6 +33,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

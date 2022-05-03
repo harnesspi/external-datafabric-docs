@@ -2,14 +2,15 @@
 
 
 ## GET /landregistrytitleownertitles/{parameterCompanyId}
-- Response 200 (application/json)
-[LandRegistryTitleOwnerTitlesResponse](LandRegistryTitleOwnerTitlesResponse.md)
+### Response 200 (application/json)
+Content: [LandRegistryTitleOwnerTitlesResponse](LandRegistryTitleOwnerTitlesResponse.md)
 
-    ```
-   /LandRegistryTitleOwnerTitles/BD831F5B-282D-0E49-CBD4-0000439FFC8E
-    ```
-    ```json
-   {
+#### Example 1
+```
+/LandRegistryTitleOwnerTitles/BD831F5B-282D-0E49-CBD4-0000439FFC8E
+```
+```json
+{
   "company_id": "bd831f5b-282d-0e49-cbd4-0000439ffc8e",
   "company_type_id": "2e93f429-48d1-1e83-2741-a9e7c89affe0",
   "name": "HENRY ADAMS (HORSHAM) LLP",
@@ -29,4 +30,4 @@
     }
   ]
 }
-    ```
+```

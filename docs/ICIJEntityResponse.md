@@ -1,103 +1,77 @@
 # ICIJEntityResponse
-## Description
-
 ## Properties
-### entity_id
+- entity_id (String)
 
+   
+- name (String)
 
-Type Description: String
-### name
+   
+- original_name (String)
 
+   
+- former_name (String)
 
-Type Description: String
-### original_name
+   
+- jurisdiction (String)
 
+   
+- jurisdiction_description (String)
 
-Type Description: String
-### former_name
+   
+- company_type (String)
 
+   
+- address (String)
 
-Type Description: String
-### jurisdiction
+   
+- registration_number (String)
 
+   
+- country_codes (String)
 
-Type Description: String
-### jurisdiction_description
+   
+- countries (String)
 
+   
+- incorporation_date (String)
 
-Type Description: String
-### company_type
+   
+- inactivation_date (String)
 
+   
+- struck_off_date (String)
 
-Type Description: String
-### address
+   
+- dorm_date (String)
 
+   
+- status (String)
 
-Type Description: String
-### registration_number
+   
+- internal_id (String)
 
+   
+- icij_source (String)
 
-Type Description: String
-### country_codes
+   
+- service_provider (String)
 
+   
+- note (String)
 
-Type Description: String
-### countries
+   
+- addresses (Array of [ICIJEntityAddressesDataGridResponse](ICIJEntityAddressesDataGridResponse.md))
 
+   
+- officers (Array of [ICIJEntityOfficersDataGridResponse](ICIJEntityOfficersDataGridResponse.md))
 
-Type Description: String
-### incorporation_date
+   
+- intermediaries (Array of [ICIJEntityIntermediariesDataGridResponse](ICIJEntityIntermediariesDataGridResponse.md))
 
+   
+- related_organisations (Array of [ICIJEntityRelatedOrganisationsDataGridResponse](ICIJEntityRelatedOrganisationsDataGridResponse.md))
 
-Type Description: String
-### inactivation_date
-
-
-Type Description: String
-### struck_off_date
-
-
-Type Description: String
-### dorm_date
-
-
-Type Description: String
-### status
-
-
-Type Description: String
-### internal_id
-
-
-Type Description: String
-### icij_source
-
-
-Type Description: String
-### service_provider
-
-
-Type Description: String
-### note
-
-
-Type Description: String
-### addresses
-
-
-Type Description: Array of ICIJEntityAddressesDataGridResponse
-### officers
-
-
-Type Description: Array of ICIJEntityOfficersDataGridResponse
-### intermediaries
-
-
-Type Description: Array of ICIJEntityIntermediariesDataGridResponse
-### related_organisations
-
-
-Type Description: Array of ICIJEntityRelatedOrganisationsDataGridResponse
+   
 
 ## Schema
 ```json
@@ -130,10 +104,4 @@ Type Description: Array of ICIJEntityRelatedOrganisationsDataGridResponse
        "related_organisations" : {"type" : "array", "items" : {"$ref" : "/schemas/ICIJEntityRelatedOrganisationsDataGrid"}
 }
 ```
-
-## Related Entities
-- [ICIJEntityAddressesDataGridResponse](ICIJEntityAddressesDataGridResponse.md)
-- [ICIJEntityOfficersDataGridResponse](ICIJEntityOfficersDataGridResponse.md)
-- [ICIJEntityIntermediariesDataGridResponse](ICIJEntityIntermediariesDataGridResponse.md)
-- [ICIJEntityRelatedOrganisationsDataGridResponse](ICIJEntityRelatedOrganisationsDataGridResponse.md)
 

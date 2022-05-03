@@ -1,159 +1,119 @@
 # CompanyAppointmentResponse
-## Description
-
 ## Properties
-### person_number
+- person_number (String)
 
+   
+- title (String)
 
-Type Description: String
-### title
+   
+- forenames (String)
 
+   
+- surname (String)
 
-Type Description: String
-### forenames
+   
+- honours (String)
 
+   
+- care_of (String)
 
-Type Description: String
-### surname
+   
+- po_box (String)
 
+   
+- address_line1 (String)
 
-Type Description: String
-### honours
+   
+- address_line2 (String)
 
+   
+- post_town (String)
 
-Type Description: String
-### care_of
+   
+- county (String)
 
+   
+- country (String)
 
-Type Description: String
-### po_box
+   
+- person_postcode (String)
 
+   
+- partial_date_of_birth (String)
 
-Type Description: String
-### address_line1
+   
+- occupation (String)
 
+   
+- nationality (String)
 
-Type Description: String
-### address_line2
+   
+- usual_residential_country (String)
 
+   
+- appointment_date (String)
 
-Type Description: String
-### post_town
+   
+- app_date_origin (String)
 
+   
+- app_date_origin_description (String)
 
-Type Description: String
-### county
+   
+- appointment_type (String)
 
+   
+- appointment_type_description (String)
 
-Type Description: String
-### country
+   
+- file_name (String)
 
+   
+- line_number (String)
 
-Type Description: String
-### person_postcode
+   
+- old_person_postcode (String)
 
+   
+- old_person_number (String)
 
-Type Description: String
-### partial_date_of_birth
+   
+- old_appointment_type (String)
 
+   
+- correction_indicator (String)
 
-Type Description: String
-### occupation
+   
+- corporate_indicator (String)
 
+   
+- resignation_date (String)
 
-Type Description: String
-### nationality
+   
+- res_date_origin (String)
 
+   
+- res_date_origin_description (String)
 
-Type Description: String
-### usual_residential_country
+   
+- company_number (String)
 
+   
+- company_name (String)
 
-Type Description: String
-### appointment_date
+   
+- appointed_person_other_companies_data_grid (Array of [AppointedPersonOtherCompaniesDataGridResponse](AppointedPersonOtherCompaniesDataGridResponse.md))
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### app_date_origin
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### app_date_origin_description
-
-
-Type Description: String
-### appointment_type
-
-
-Type Description: String
-### appointment_type_description
-
-
-Type Description: String
-### file_name
-
-
-Type Description: String
-### line_number
-
-
-Type Description: String
-### old_person_postcode
-
-
-Type Description: String
-### old_person_number
-
-
-Type Description: String
-### old_appointment_type
-
-
-Type Description: String
-### correction_indicator
-
-
-Type Description: String
-### corporate_indicator
-
-
-Type Description: String
-### resignation_date
-
-
-Type Description: String
-### res_date_origin
-
-
-Type Description: String
-### res_date_origin_description
-
-
-Type Description: String
-### company_number
-
-
-Type Description: String
-### company_name
-
-
-Type Description: String
-### appointed_person_other_companies_data_grid
-
-
-Type Description: Array of AppointedPersonOtherCompaniesDataGridResponse
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -200,10 +160,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [AppointedPersonOtherCompaniesDataGridResponse](AppointedPersonOtherCompaniesDataGridResponse.md)
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

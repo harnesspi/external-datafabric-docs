@@ -1,23 +1,17 @@
 # MultiSignatureMatchingAttributeResponse
-## Description
-
 ## Properties
-### hpids
+- hpids (String)
 
+   
+- attribute_name (String)
 
-Type Description: String
-### attribute_name
+   
+- attribute_value (String)
 
+   
+- matching_attribute_addresses (Array of [MatchingAttributeAddressesDataGridResponse](MatchingAttributeAddressesDataGridResponse.md))
 
-Type Description: String
-### attribute_value
-
-
-Type Description: String
-### matching_attribute_addresses
-
-
-Type Description: Array of MatchingAttributeAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -30,7 +24,4 @@ Type Description: Array of MatchingAttributeAddressesDataGridResponse
        "matching_attribute_addresses" : {"type" : "array", "items" : {"$ref" : "/schemas/MatchingAttributeAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MatchingAttributeAddressesDataGridResponse](MatchingAttributeAddressesDataGridResponse.md)
 

@@ -1,43 +1,32 @@
 # ICIJIntermediaryEntitiesDataGridResponse
-## Description
-
 ## Properties
-### intermediary_id
+- intermediary_id (String)
 
+   
+- entity_id ([ValueLink](ValueLink.md) for [object](object.md))
 
-Type Description: String
-### entity_id
+   
+- intermediary_type (String)
 
+   
+- status (String)
 
-Type Description: ValueLink for object
-### intermediary_type
+   
+- start_date (String)
 
+   
+- end_date (String)
 
-Type Description: String
-### status
+   
+- icij_source (String)
 
+   
+- name (String)
 
-Type Description: String
-### start_date
+   
+- countries (String)
 
-
-Type Description: String
-### end_date
-
-
-Type Description: String
-### icij_source
-
-
-Type Description: String
-### name
-
-
-Type Description: String
-### countries
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -56,7 +45,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
-- [ValueLink](ValueLink.md)
 

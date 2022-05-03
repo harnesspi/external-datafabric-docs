@@ -2,14 +2,15 @@
 
 
 ## GET /company/{parameterCompanyNumber}
-- Response 200 (application/json)
-[CompanyResponse](CompanyResponse.md)
+### Response 200 (application/json)
+Content: [CompanyResponse](CompanyResponse.md)
 
-    ```
-   /Company/00001556
-    ```
-    ```json
-   {
+#### Example 1
+```
+/Company/00001556
+```
+```json
+{
   "company_number": "00001556",
   "open_listing_url": null,
   "company_name": "VULCAN REALISATIONS LIMITED",
@@ -249,12 +250,13 @@
   ],
   "no_signatures": []
 }
-    ```
-    ```
-   /Company/00001471
-    ```
-    ```json
-   {
+```
+#### Example 2
+```
+/Company/00001471
+```
+```json
+{
   "company_number": "00001471",
   "open_listing_url": null,
   "company_name": "NATIONAL VULCAN ENGINEERING INSURANCE GROUP LIMITED",
@@ -639,4 +641,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

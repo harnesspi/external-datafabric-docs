@@ -2,6 +2,6 @@
 
 
 ## GET /signaturematchingattribute/{parameterSignatureHPID}
-- Response 200 (application/json)
-[SignatureMatchingAttributeResponse](SignatureMatchingAttributeResponse.md)
+### Response 200 (application/json)
+Content: [SignatureMatchingAttributeResponse](SignatureMatchingAttributeResponse.md)
 

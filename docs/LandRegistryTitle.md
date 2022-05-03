@@ -2,14 +2,15 @@
 
 
 ## GET /landregistrytitle/{parameterTitleNumber}
-- Response 200 (application/json)
-[LandRegistryTitleResponse](LandRegistryTitleResponse.md)
+### Response 200 (application/json)
+Content: [LandRegistryTitleResponse](LandRegistryTitleResponse.md)
 
-    ```
-   /LandRegistryTitle/SY31257/LandRegistryFreehold/SY31257
-    ```
-    ```json
-   {
+#### Example 1
+```
+/LandRegistryTitle/SY31257/LandRegistryFreehold/SY31257
+```
+```json
+{
   "title_number": "SY31257",
   "tenancy": "Freehold",
   "id": "16E4530833C41C33B35C1B61CCF073CD71B9A497",
@@ -243,6 +244,49 @@
     },
     {
       "matched": "True",
+      "signature_hpid": "87fb49ea-9964-4612-bf91-9796ea75247e",
+      "internal_hpid": {
+        "value": "69cf416d-689c-22f6-c85d-31598ba1a238",
+        "link": "/InternalHPID/69cf416d-689c-22f6-c85d-31598ba1a238"
+      },
+      "organisation": null,
+      "land": null,
+      "plot": null,
+      "block": null,
+      "level": null,
+      "arch": null,
+      "unit": null,
+      "flat": null,
+      "room": null,
+      "parking": null,
+      "description": null,
+      "object_type": null,
+      "keys": [
+        {
+          "key": "EpcDomestic",
+          "value": "1801238232002020060814325075000758",
+          "link": "/SignatureInternalKey/69cf416d-689c-22f6-c85d-31598ba1a238/EpcDomestic/1801238232002020060814325075000758"
+        },
+        {
+          "key": "LandRegistryFreehold",
+          "value": "SY31257",
+          "link": "/SignatureInternalKey/69cf416d-689c-22f6-c85d-31598ba1a238/LandRegistryFreehold/SY31257"
+        },
+        {
+          "key": "LandRegistryLeasehold",
+          "value": "TGL393746",
+          "link": "/SignatureInternalKey/69cf416d-689c-22f6-c85d-31598ba1a238/LandRegistryLeasehold/TGL393746"
+        },
+        {
+          "key": "UPRN",
+          "value": "100022318523",
+          "link": "/SignatureInternalKey/69cf416d-689c-22f6-c85d-31598ba1a238/UPRN/100022318523"
+        }
+      ],
+      "signature": " 2 TOWNSHEND RD"
+    },
+    {
+      "matched": "True",
       "signature_hpid": "fb9af3b0-8535-5e52-7974-ff7e077c0a65",
       "internal_hpid": {
         "value": "e08e2202-ad76-34be-ab67-84ba6938fcf6",
@@ -336,49 +380,6 @@
         }
       ],
       "signature": " 2B TOWNSHEND RD"
-    },
-    {
-      "matched": "True",
-      "signature_hpid": "87fb49ea-9964-4612-bf91-9796ea75247e",
-      "internal_hpid": {
-        "value": "69cf416d-689c-22f6-c85d-31598ba1a238",
-        "link": "/InternalHPID/69cf416d-689c-22f6-c85d-31598ba1a238"
-      },
-      "organisation": null,
-      "land": null,
-      "plot": null,
-      "block": null,
-      "level": null,
-      "arch": null,
-      "unit": null,
-      "flat": null,
-      "room": null,
-      "parking": null,
-      "description": null,
-      "object_type": null,
-      "keys": [
-        {
-          "key": "EpcDomestic",
-          "value": "1801238232002020060814325075000758",
-          "link": "/SignatureInternalKey/69cf416d-689c-22f6-c85d-31598ba1a238/EpcDomestic/1801238232002020060814325075000758"
-        },
-        {
-          "key": "LandRegistryFreehold",
-          "value": "SY31257",
-          "link": "/SignatureInternalKey/69cf416d-689c-22f6-c85d-31598ba1a238/LandRegistryFreehold/SY31257"
-        },
-        {
-          "key": "LandRegistryLeasehold",
-          "value": "TGL393746",
-          "link": "/SignatureInternalKey/69cf416d-689c-22f6-c85d-31598ba1a238/LandRegistryLeasehold/TGL393746"
-        },
-        {
-          "key": "UPRN",
-          "value": "100022318523",
-          "link": "/SignatureInternalKey/69cf416d-689c-22f6-c85d-31598ba1a238/UPRN/100022318523"
-        }
-      ],
-      "signature": " 2 TOWNSHEND RD"
     }
   ],
   "key_addresses_data_grid": [
@@ -948,4 +949,4 @@
     }
   ]
 }
-    ```
+```

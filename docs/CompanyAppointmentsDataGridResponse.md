@@ -1,35 +1,26 @@
 # CompanyAppointmentsDataGridResponse
-## Description
-
 ## Properties
-### file_name
+- file_name (String)
 
+   
+- line_number (String)
 
-Type Description: String
-### line_number
+   
+- person_number (String)
 
+   
+- name (String)
 
-Type Description: String
-### person_number
+   
+- partial_date_of_birth (String)
 
+   
+- appointment_date (String)
 
-Type Description: String
-### name
+   
+- appointment_type_description (String)
 
-
-Type Description: String
-### partial_date_of_birth
-
-
-Type Description: String
-### appointment_date
-
-
-Type Description: String
-### appointment_type_description
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -46,6 +37,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

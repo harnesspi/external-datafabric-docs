@@ -1,47 +1,35 @@
 # ICIJIntermediaryResponse
-## Description
-
 ## Properties
-### intermediary_id
+- intermediary_id (String)
 
+   
+- name (String)
 
-Type Description: String
-### name
+   
+- status (String)
 
+   
+- address (String)
 
-Type Description: String
-### status
+   
+- countries (String)
 
+   
+- country_codes (String)
 
-Type Description: String
-### address
+   
+- icij_source (String)
 
+   
+- note (String)
 
-Type Description: String
-### countries
+   
+- addresses (Array of [ICIJIntermediaryAddressesDataGridResponse](ICIJIntermediaryAddressesDataGridResponse.md))
 
+   
+- entities (Array of [ICIJIntermediaryEntitiesDataGridResponse](ICIJIntermediaryEntitiesDataGridResponse.md))
 
-Type Description: String
-### country_codes
-
-
-Type Description: String
-### icij_source
-
-
-Type Description: String
-### note
-
-
-Type Description: String
-### addresses
-
-
-Type Description: Array of ICIJIntermediaryAddressesDataGridResponse
-### entities
-
-
-Type Description: Array of ICIJIntermediaryEntitiesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -60,8 +48,4 @@ Type Description: Array of ICIJIntermediaryEntitiesDataGridResponse
        "entities" : {"type" : "array", "items" : {"$ref" : "/schemas/ICIJIntermediaryEntitiesDataGrid"}
 }
 ```
-
-## Related Entities
-- [ICIJIntermediaryAddressesDataGridResponse](ICIJIntermediaryAddressesDataGridResponse.md)
-- [ICIJIntermediaryEntitiesDataGridResponse](ICIJIntermediaryEntitiesDataGridResponse.md)
 

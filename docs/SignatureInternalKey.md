@@ -2,14 +2,15 @@
 
 
 ## GET /signatureinternalkey/{parameterInternalHPID}/{parameterKeyType}/{parameterKeyValue}
-- Response 200 (application/json)
-[SignatureInternalKeyResponse](SignatureInternalKeyResponse.md)
+### Response 200 (application/json)
+Content: [SignatureInternalKeyResponse](SignatureInternalKeyResponse.md)
 
-    ```
-   /SignatureInternalKey/4108cbdc-50e6-0bfc-290c-baa8adcf5033/LandRegistryFreehold/SY31257
-    ```
-    ```json
-   {
+#### Example 1
+```
+/SignatureInternalKey/4108cbdc-50e6-0bfc-290c-baa8adcf5033/LandRegistryFreehold/SY31257
+```
+```json
+{
   "key_type": "LandRegistryFreehold",
   "key_value": "SY31257",
   "internal_key_signature_internals": [
@@ -504,4 +505,4 @@
     }
   ]
 }
-    ```
+```

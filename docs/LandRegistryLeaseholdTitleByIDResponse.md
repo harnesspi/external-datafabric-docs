@@ -1,63 +1,47 @@
 # LandRegistryLeaseholdTitleByIDResponse
-## Description
-
 ## Properties
-### title_number
+- title_number (String)
 
+   
+- tenancy (String)
 
-Type Description: String
-### tenancy
+   
+- id (String)
 
+   
+- price_paid (String)
 
-Type Description: String
-### id
+   
+- description (String)
 
+   
+- county (String)
 
-Type Description: String
-### price_paid
+   
+- region (String)
 
+   
+- alienation_clause_indicator (String)
 
-Type Description: String
-### description
+   
+- land_registry_lease_entries_data_grid (Array of [LandRegistryLeaseEntriesDataGridResponse](LandRegistryLeaseEntriesDataGridResponse.md))
 
+   
+- land_registry_title_upr_ns (Array of [LandRegistryTitleUPRNsGridResponse](LandRegistryTitleUPRNsGridResponse.md))
 
-Type Description: String
-### county
+   
+- title_details_data_grid (Array of [TitleDetailsDataGridResponse](TitleDetailsDataGridResponse.md))
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### region
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### alienation_clause_indicator
-
-
-Type Description: String
-### land_registry_lease_entries_data_grid
-
-
-Type Description: Array of LandRegistryLeaseEntriesDataGridResponse
-### land_registry_title_upr_ns
-
-
-Type Description: Array of LandRegistryTitleUPRNsGridResponse
-### title_details_data_grid
-
-
-Type Description: Array of TitleDetailsDataGridResponse
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -80,12 +64,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [LandRegistryLeaseEntriesDataGridResponse](LandRegistryLeaseEntriesDataGridResponse.md)
-- [LandRegistryTitleUPRNsGridResponse](LandRegistryTitleUPRNsGridResponse.md)
-- [TitleDetailsDataGridResponse](TitleDetailsDataGridResponse.md)
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

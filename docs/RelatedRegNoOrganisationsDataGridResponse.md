@@ -1,23 +1,17 @@
 # RelatedRegNoOrganisationsDataGridResponse
-## Description
-
 ## Properties
-### key_type
+- key_type (String)
 
+   
+- organisation_hpid (String)
 
-Type Description: String
-### organisation_hpid
+   
+- normalised_organisation (String)
 
+   
+- reg_nos (String)
 
-Type Description: String
-### normalised_organisation
-
-
-Type Description: String
-### reg_nos
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -31,6 +25,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

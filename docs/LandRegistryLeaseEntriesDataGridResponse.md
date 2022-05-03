@@ -1,39 +1,29 @@
 # LandRegistryLeaseEntriesDataGridResponse
-## Description
-
 ## Properties
-### id
+- id (String)
 
+   
+- entry_number (String)
 
-Type Description: String
-### entry_number
+   
+- reg_order (String)
 
+   
+- associated_property_id (String)
 
-Type Description: String
-### reg_order
+   
+- associated_property_description (String)
 
+   
+- uprn (String)
 
-Type Description: String
-### associated_property_id
+   
+- lease_date (String)
 
+   
+- term (String)
 
-Type Description: String
-### associated_property_description
-
-
-Type Description: String
-### uprn
-
-
-Type Description: String
-### lease_date
-
-
-Type Description: String
-### term
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -51,6 +41,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

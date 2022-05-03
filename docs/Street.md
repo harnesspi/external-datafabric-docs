@@ -2,14 +2,15 @@
 
 
 ## GET /street/{parameterUSRN}
-- Response 200 (application/json)
-[StreetResponse](StreetResponse.md)
+### Response 200 (application/json)
+Content: [StreetResponse](StreetResponse.md)
 
-    ```
-   /Street/22406023
-    ```
-    ```json
-   {
+#### Example 1
+```
+/Street/22406023
+```
+```json
+{
   "usrn": "22406023",
   "street": "TOWNSHEND RD",
   "date_context": null,
@@ -1283,4 +1284,4 @@
     }
   ]
 }
-    ```
+```

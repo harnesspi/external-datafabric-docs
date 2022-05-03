@@ -1,19 +1,14 @@
 # OrganisationLandRegistryTitlesGridResponse
-## Description
-
 ## Properties
-### title_number
+- title_number (String)
 
+   
+- property_address (String)
 
-Type Description: String
-### property_address
+   
+- tenure (String)
 
-
-Type Description: String
-### tenure
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -26,6 +21,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

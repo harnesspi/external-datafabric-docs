@@ -1,31 +1,23 @@
 # SignatureKeyResponse
-## Description
-
 ## Properties
-### key_type
+- key_type (String)
 
+   
+- key_value (String)
 
-Type Description: String
-### key_value
+   
+- key_signatures (Array of [KeySignaturesGridResponse](KeySignaturesGridResponse.md))
 
+   
+- key_signatures_internals (Array of [KeySignaturesInternalsGridResponse](KeySignaturesInternalsGridResponse.md))
 
-Type Description: String
-### key_signatures
+   
+- key_addresses_data_grid (Array of [KeyAddressesDataGridResponse](KeyAddressesDataGridResponse.md))
 
+   
+- listings (Array of [SignatureKeyRelatedListingsGridResponse](SignatureKeyRelatedListingsGridResponse.md))
 
-Type Description: Array of KeySignaturesGridResponse
-### key_signatures_internals
-
-
-Type Description: Array of KeySignaturesInternalsGridResponse
-### key_addresses_data_grid
-
-
-Type Description: Array of KeyAddressesDataGridResponse
-### listings
-
-
-Type Description: Array of SignatureKeyRelatedListingsGridResponse
+   
 
 ## Schema
 ```json
@@ -40,10 +32,4 @@ Type Description: Array of SignatureKeyRelatedListingsGridResponse
        "listings" : {"type" : "array", "items" : {"$ref" : "/schemas/SignatureKeyRelatedListingsGrid"}
 }
 ```
-
-## Related Entities
-- [KeySignaturesGridResponse](KeySignaturesGridResponse.md)
-- [KeySignaturesInternalsGridResponse](KeySignaturesInternalsGridResponse.md)
-- [KeyAddressesDataGridResponse](KeyAddressesDataGridResponse.md)
-- [SignatureKeyRelatedListingsGridResponse](SignatureKeyRelatedListingsGridResponse.md)
 

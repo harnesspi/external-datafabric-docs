@@ -2,14 +2,15 @@
 
 
 ## GET /zooplahistoricpriceform/{parameterPropertyID}
-- Response 200 (application/json)
-[ZooplaHistoricPriceFormResponse](ZooplaHistoricPriceFormResponse.md)
+### Response 200 (application/json)
+Content: [ZooplaHistoricPriceFormResponse](ZooplaHistoricPriceFormResponse.md)
 
-    ```
-   /ZooplaHistoricPriceForm/5020
-    ```
-    ```json
-   {
+#### Example 1
+```
+/ZooplaHistoricPriceForm/5020
+```
+```json
+{
   "property_id": "5020",
   "address": "2 Upperkirkgate",
   "locality": "Aberdeen",
@@ -90,4 +91,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

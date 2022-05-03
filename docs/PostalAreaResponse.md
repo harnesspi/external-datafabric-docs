@@ -1,31 +1,23 @@
 # PostalAreaResponse
-## Description
-
 ## Properties
-### streets
+- streets (Array of [PostalAreaStreetsDataGridResponse](PostalAreaStreetsDataGridResponse.md))
 
+   
+- category_d (String)
 
-Type Description: Array of PostalAreaStreetsDataGridResponse
-### category_d
+   
+- category_s (String)
 
+   
+- category_t (String)
 
-Type Description: String
-### category_s
+   
+- category_f (String)
 
+   
+- category_o (String)
 
-Type Description: String
-### category_t
-
-
-Type Description: String
-### category_f
-
-
-Type Description: String
-### category_o
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -40,7 +32,4 @@ Type Description: String
        "category_o" : ["string", "null"],
 }
 ```
-
-## Related Entities
-- [PostalAreaStreetsDataGridResponse](PostalAreaStreetsDataGridResponse.md)
 

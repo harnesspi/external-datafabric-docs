@@ -1,35 +1,26 @@
 # VOAListEntryDataItemsHistoricDataGridResponse
-## Description
-
 ## Properties
-### assessment_reference
+- assessment_reference (String)
 
+   
+- list_year (String)
 
-Type Description: String
-### list_year
+   
+- primary_description_text (String)
 
+   
+- case_number (String)
 
-Type Description: String
-### primary_description_text
+   
+- rateable_value (String)
 
+   
+- historic_from_date (String)
 
-Type Description: String
-### case_number
+   
+- historic_to_date (String)
 
-
-Type Description: String
-### rateable_value
-
-
-Type Description: String
-### historic_from_date
-
-
-Type Description: String
-### historic_to_date
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -46,6 +37,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

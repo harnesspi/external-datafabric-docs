@@ -1,63 +1,47 @@
 # VOAListEntryDataItemHistoricResponse
-## Description
-
 ## Properties
-### assessment_reference
+- assessment_reference (String)
 
+   
+- list_year (String)
 
-Type Description: String
-### list_year
+   
+- uarn (String)
 
+   
+- primary_and_secondary_description_code (String)
 
-Type Description: String
-### uarn
+   
+- primary_description_text (String)
 
+   
+- effective_date (String)
 
-Type Description: String
-### primary_and_secondary_description_code
+   
+- composite_indicator (String)
 
+   
+- rateable_value (String)
 
-Type Description: String
-### primary_description_text
+   
+- appeal_settlement_code (String)
 
+   
+- list_alteration_date (String)
 
-Type Description: String
-### effective_date
+   
+- scat_code_and_suffix (String)
 
+   
+- case_number (String)
 
-Type Description: String
-### composite_indicator
+   
+- historic_from_date (String)
 
+   
+- historic_to_date (String)
 
-Type Description: String
-### rateable_value
-
-
-Type Description: String
-### appeal_settlement_code
-
-
-Type Description: String
-### list_alteration_date
-
-
-Type Description: String
-### scat_code_and_suffix
-
-
-Type Description: String
-### case_number
-
-
-Type Description: String
-### historic_from_date
-
-
-Type Description: String
-### historic_to_date
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -80,6 +64,4 @@ Type Description: String
        "historic_to_date" : ["string", "null"]
 }
 ```
-
-## Related Entities
 

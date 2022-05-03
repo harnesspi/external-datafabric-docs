@@ -1,223 +1,167 @@
 # EPCDisplayResponse
-## Description
-
 ## Properties
-### lmk_key
+- lmk_key (String)
 
+   
+- address1 (String)
 
-Type Description: String
-### address1
+   
+- address2 (String)
 
+   
+- address3 (String)
 
-Type Description: String
-### address2
+   
+- postcode (String)
 
+   
+- posttown (String)
 
-Type Description: String
-### address3
+   
+- local_authority (String)
 
+   
+- constituency (String)
 
-Type Description: String
-### postcode
+   
+- county (String)
 
+   
+- building_reference_number (String)
 
-Type Description: String
-### posttown
+   
+- property_type (String)
 
+   
+- total_floor_area (String)
 
-Type Description: String
-### local_authority
+   
+- inspection_date (String)
 
+   
+- lodgement_date (String)
 
-Type Description: String
-### constituency
+   
+- building_environment (String)
 
+   
+- building_category (String)
 
-Type Description: String
-### county
+   
+- address (String)
 
+   
+- local_authority_label (String)
 
-Type Description: String
-### building_reference_number
+   
+- constituency_label (String)
 
+   
+- nominated_date (String)
 
-Type Description: String
-### property_type
+   
+- or_assessment_end_date (String)
 
+   
+- lodgement_datetime (String)
 
-Type Description: String
-### total_floor_area
+   
+- occupancy_level (String)
 
+   
+- current_operational_rating (String)
 
-Type Description: String
-### inspection_date
+   
+- y_r1_operational_rating (String)
 
+   
+- y_r2_operational_rating (String)
 
-Type Description: String
-### lodgement_date
+   
+- operational_rating_band (String)
 
+   
+- aircon_present (String)
 
-Type Description: String
-### building_environment
+   
+- aircon_kw_rating (String)
 
+   
+- estimated_aircon_kw_rating (String)
 
-Type Description: String
-### building_category
+   
+- ac_inspection_commissioned (String)
 
+   
+- electric_c_o2 (String)
 
-Type Description: String
-### address
+   
+- heating_c_o2 (String)
 
+   
+- renewables_c_o2 (String)
 
-Type Description: String
-### local_authority_label
+   
+- main_benchmark (String)
 
+   
+- main_heating_fuel (String)
 
-Type Description: String
-### constituency_label
+   
+- other_fuel (String)
 
+   
+- special_energy_uses (String)
 
-Type Description: String
-### nominated_date
+   
+- renewable_sources (String)
 
+   
+- annual_thermal_fuel_usage (String)
 
-Type Description: String
-### or_assessment_end_date
+   
+- typical_thermal_fuel_usage (String)
 
+   
+- annual_electrical_fuel_usage (String)
 
-Type Description: String
-### lodgement_datetime
+   
+- typical_electrical_fuel_usage (String)
 
+   
+- renewables_fuel_thermal (String)
 
-Type Description: String
-### occupancy_level
+   
+- renewables_electrical (String)
 
+   
+- y_r1_electricity_c_o2 (String)
 
-Type Description: String
-### current_operational_rating
+   
+- y_r2_electricity_c_o2 (String)
 
+   
+- y_r1_heating_c_o2 (String)
 
-Type Description: String
-### y_r1_operational_rating
+   
+- y_r2_heating_c_o2 (String)
 
+   
+- y_r1_renewables_c_o2 (String)
 
-Type Description: String
-### y_r2_operational_rating
+   
+- y_r2_renewables_c_o2 (String)
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### operational_rating_band
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### aircon_present
-
-
-Type Description: String
-### aircon_kw_rating
-
-
-Type Description: String
-### estimated_aircon_kw_rating
-
-
-Type Description: String
-### ac_inspection_commissioned
-
-
-Type Description: String
-### electric_c_o2
-
-
-Type Description: String
-### heating_c_o2
-
-
-Type Description: String
-### renewables_c_o2
-
-
-Type Description: String
-### main_benchmark
-
-
-Type Description: String
-### main_heating_fuel
-
-
-Type Description: String
-### other_fuel
-
-
-Type Description: String
-### special_energy_uses
-
-
-Type Description: String
-### renewable_sources
-
-
-Type Description: String
-### annual_thermal_fuel_usage
-
-
-Type Description: String
-### typical_thermal_fuel_usage
-
-
-Type Description: String
-### annual_electrical_fuel_usage
-
-
-Type Description: String
-### typical_electrical_fuel_usage
-
-
-Type Description: String
-### renewables_fuel_thermal
-
-
-Type Description: String
-### renewables_electrical
-
-
-Type Description: String
-### y_r1_electricity_c_o2
-
-
-Type Description: String
-### y_r2_electricity_c_o2
-
-
-Type Description: String
-### y_r1_heating_c_o2
-
-
-Type Description: String
-### y_r2_heating_c_o2
-
-
-Type Description: String
-### y_r1_renewables_c_o2
-
-
-Type Description: String
-### y_r2_renewables_c_o2
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -280,9 +224,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

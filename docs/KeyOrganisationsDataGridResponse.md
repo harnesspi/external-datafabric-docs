@@ -1,19 +1,14 @@
 # KeyOrganisationsDataGridResponse
-## Description
-
 ## Properties
-### hpid
+- hpid (String)
 
+   
+- name (String)
 
-Type Description: String
-### name
+   
+- company_number (String)
 
-
-Type Description: String
-### company_number
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -26,6 +21,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

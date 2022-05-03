@@ -2,14 +2,15 @@
 
 
 ## GET /icijintermediary/{parameterIntermediaryId}
-- Response 200 (application/json)
-[ICIJIntermediaryResponse](ICIJIntermediaryResponse.md)
+### Response 200 (application/json)
+Content: [ICIJIntermediaryResponse](ICIJIntermediaryResponse.md)
 
-    ```
-   /ICIJIntermediary/214489
-    ```
-    ```json
-   {
+#### Example 1
+```
+/ICIJIntermediary/214489
+```
+```json
+{
   "intermediary_id": "214489",
   "name": "CORFIDUCIA ANSTALT",
   "status": "ACTIVE",
@@ -162,12 +163,13 @@
     }
   ]
 }
-    ```
-    ```
-   /ICIJIntermediary/666413
-    ```
-    ```json
-   {
+```
+#### Example 2
+```
+/ICIJIntermediary/666413
+```
+```json
+{
   "intermediary_id": "666413",
   "name": "Chen, Pei-Ju",
   "status": "",
@@ -217,4 +219,4 @@
     }
   ]
 }
-    ```
+```

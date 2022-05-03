@@ -2,14 +2,15 @@
 
 
 ## GET /key/{parameterKey}
-- Response 200 (application/json)
-[Array of KeyResponse](KeyResponse.md)
+### Response 200 (application/json)
+Content: Array of [KeyResponse](KeyResponse.md)
 
-    ```
-   /Key/cf2e37f7-fde4-cb2b-951b-dab63872db39
-    ```
-    ```json
-   [
+#### Example 1
+```
+/Key/cf2e37f7-fde4-cb2b-951b-dab63872db39
+```
+```json
+[
   {
     "key_type": "Signature",
     "key_value": "CF2E37F7-FDE4-CB2B-951B-DAB63872DB39",
@@ -21,12 +22,13 @@
     }
   }
 ]
-    ```
-    ```
-   /Description/guy's%20hospital
-    ```
-    ```json
-   [
+```
+#### Example 2
+```
+/Description/guy's%20hospital
+```
+```json
+[
   {
     "key_type": "Estate",
     "key_value": "707322577",
@@ -72,4 +74,4 @@
     "order_rank": "99"
   }
 ]
-    ```
+```

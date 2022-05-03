@@ -2,14 +2,15 @@
 
 
 ## GET /landregistryrestrictivecovenant/{parameterID}
-- Response 200 (application/json)
-[LandRegistryRestrictiveCovenantResponse](LandRegistryRestrictiveCovenantResponse.md)
+### Response 200 (application/json)
+Content: [LandRegistryRestrictiveCovenantResponse](LandRegistryRestrictiveCovenantResponse.md)
 
-    ```
-   /LandRegistryRestrictiveCovenant/0000002FB084A15F3F49DC2B4A8DFF5328EC705E
-    ```
-    ```json
-   {
+#### Example 1
+```
+/LandRegistryRestrictiveCovenant/0000002FB084A15F3F49DC2B4A8DFF5328EC705E
+```
+```json
+{
   "title_number": "SF311313",
   "lease_id": null,
   "id": "0000002FB084A15F3F49DC2B4A8DFF5328EC705E",
@@ -91,4 +92,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

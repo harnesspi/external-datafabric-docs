@@ -1,43 +1,32 @@
 # ICIJEntityRelatedOrganisationsDataGridResponse
-## Description
-
 ## Properties
-### entity_id
+- entity_id (String)
 
+   
+- organisation_hpid (String)
 
-Type Description: String
-### organisation_hpid
+   
+- related_organisation (String)
 
+   
+- source_name (String)
 
-Type Description: String
-### related_organisation
+   
+- row_key (String)
 
+   
+- row_key_subfix (String)
 
-Type Description: String
-### source_name
+   
+- registration_number (String)
 
+   
+- country_registered (String)
 
-Type Description: String
-### row_key
+   
+- url_query ([KeyValueLink](KeyValueLink.md) for [object](object.md))
 
-
-Type Description: String
-### row_key_subfix
-
-
-Type Description: String
-### registration_number
-
-
-Type Description: String
-### country_registered
-
-
-Type Description: String
-### url_query
-
-
-Type Description: KeyValueLink for object
+   
 
 ## Schema
 ```json
@@ -56,7 +45,4 @@ Type Description: KeyValueLink for object
     }
 }
 ```
-
-## Related Entities
-- [KeyValueLink](KeyValueLink.md)
 

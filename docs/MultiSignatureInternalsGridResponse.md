@@ -1,71 +1,53 @@
 # MultiSignatureInternalsGridResponse
-## Description
-
 ## Properties
-### signature_hpid
+- signature_hpid (String)
 
+   
+- internal_hpid ([ValueLink](ValueLink.md) for [InternalHPIDResponse](InternalHPIDResponse.md))
 
-Type Description: String
-### internal_hpid
+   
+- organisation ([ValueLink](ValueLink.md) for [MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md))
 
+   
+- land (String)
 
-Type Description: ValueLink for InternalHPIDResponse
-### organisation
+   
+- plot (String)
 
+   
+- block (String)
 
-Type Description: ValueLink for MultiSignatureMatchingAttributeResponse
-### land
+   
+- level ([ValueLink](ValueLink.md) for [MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md))
 
+   
+- arch (String)
 
-Type Description: String
-### plot
+   
+- unit ([ValueLink](ValueLink.md) for [MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md))
 
+   
+- flat ([ValueLink](ValueLink.md) for [MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md))
 
-Type Description: String
-### block
+   
+- room (String)
 
+   
+- parking (String)
 
-Type Description: String
-### level
+   
+- description (String)
 
+   
+- object_type (String)
 
-Type Description: ValueLink for MultiSignatureMatchingAttributeResponse
-### arch
+   
+- keys (Array of [KeyValueLinks](KeyValueLink.md) for [SignatureInternalKeyResponse](SignatureInternalKeyResponse.md))
 
+   
+- signature (String)
 
-Type Description: String
-### unit
-
-
-Type Description: ValueLink for MultiSignatureMatchingAttributeResponse
-### flat
-
-
-Type Description: ValueLink for MultiSignatureMatchingAttributeResponse
-### room
-
-
-Type Description: String
-### parking
-
-
-Type Description: String
-### description
-
-
-Type Description: String
-### object_type
-
-
-Type Description: String
-### keys
-
-
-Type Description: Array of KeyValueLinks for SignatureInternalKeyResponse
-### signature
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -91,11 +73,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
-- [InternalHPIDResponse](InternalHPIDResponse.md)
-- [ValueLink](ValueLink.md)
-- [MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md)
-- [SignatureInternalKeyResponse](SignatureInternalKeyResponse.md)
-- [KeyValueLink](KeyValueLink.md)
 

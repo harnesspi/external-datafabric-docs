@@ -1,31 +1,23 @@
 # OrganisationKeyResponse
-## Description
-
 ## Properties
-### key_type
+- key_type (String)
 
+   
+- key_value (String)
 
-Type Description: String
-### key_value
+   
+- description (String)
 
+   
+- month_of_birth (String)
 
-Type Description: String
-### description
+   
+- url_query (String)
 
+   
+- organisation_records (Array of [KeyOrganisationsDataGridResponse](KeyOrganisationsDataGridResponse.md))
 
-Type Description: String
-### month_of_birth
-
-
-Type Description: String
-### url_query
-
-
-Type Description: String
-### organisation_records
-
-
-Type Description: Array of KeyOrganisationsDataGridResponse
+   
 
 ## Schema
 ```json
@@ -40,7 +32,4 @@ Type Description: Array of KeyOrganisationsDataGridResponse
        "organisation_records" : {"type" : "array", "items" : {"$ref" : "/schemas/KeyOrganisationsDataGrid"}
 }
 ```
-
-## Related Entities
-- [KeyOrganisationsDataGridResponse](KeyOrganisationsDataGridResponse.md)
 

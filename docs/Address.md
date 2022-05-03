@@ -2,6 +2,6 @@
 
 
 ## GET /address/{parameterAddressHPID}
-- Response 200 (application/json)
-[AddressResponse](AddressResponse.md)
+### Response 200 (application/json)
+Content: [AddressResponse](AddressResponse.md)
 

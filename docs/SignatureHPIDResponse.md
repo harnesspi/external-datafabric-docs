@@ -1,47 +1,35 @@
 # SignatureHPIDResponse
-## Description
-
 ## Properties
-### signature_hpid
+- signature_hpid (String)
 
+   
+- building (String)
 
-Type Description: String
-### building
+   
+- building_start_number (String)
 
+   
+- building_end_number (String)
 
-Type Description: String
-### building_start_number
+   
+- usrn (String)
 
+   
+- description (String)
 
-Type Description: String
-### building_end_number
+   
+- signature_internals (Array of [SignatureInternalsGridResponse](SignatureInternalsGridResponse.md))
 
+   
+- signature_addresses (Array of [SignatureAddressesGridResponse](SignatureAddressesGridResponse.md))
 
-Type Description: String
-### usrn
+   
+- signature_keys (Array of [SignatureKeysGridResponse](SignatureKeysGridResponse.md))
 
+   
+- listings (Array of [SignatureRelatedListingsGridResponse](SignatureRelatedListingsGridResponse.md))
 
-Type Description: String
-### description
-
-
-Type Description: String
-### signature_internals
-
-
-Type Description: Array of SignatureInternalsGridResponse
-### signature_addresses
-
-
-Type Description: Array of SignatureAddressesGridResponse
-### signature_keys
-
-
-Type Description: Array of SignatureKeysGridResponse
-### listings
-
-
-Type Description: Array of SignatureRelatedListingsGridResponse
+   
 
 ## Schema
 ```json
@@ -60,10 +48,4 @@ Type Description: Array of SignatureRelatedListingsGridResponse
        "listings" : {"type" : "array", "items" : {"$ref" : "/schemas/SignatureRelatedListingsGrid"}
 }
 ```
-
-## Related Entities
-- [SignatureInternalsGridResponse](SignatureInternalsGridResponse.md)
-- [SignatureAddressesGridResponse](SignatureAddressesGridResponse.md)
-- [SignatureKeysGridResponse](SignatureKeysGridResponse.md)
-- [SignatureRelatedListingsGridResponse](SignatureRelatedListingsGridResponse.md)
 

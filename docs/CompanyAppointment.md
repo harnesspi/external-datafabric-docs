@@ -2,14 +2,15 @@
 
 
 ## GET /companyappointment/{parameterFileName}/{parameterLineNumber}
-- Response 200 (application/json)
-[CompanyAppointmentResponse](CompanyAppointmentResponse.md)
+### Response 200 (application/json)
+Content: [CompanyAppointmentResponse](CompanyAppointmentResponse.md)
 
-    ```
-   /CompanyAppointment/Snapshot/140559
-    ```
-    ```json
-   {
+#### Example 1
+```
+/CompanyAppointment/Snapshot/140559
+```
+```json
+{
   "person_number": "037543250001",
   "title": null,
   "forenames": "ROGER",
@@ -117,12 +118,13 @@
   ],
   "no_signatures": []
 }
-    ```
-    ```
-   /CompanyAppointment/Snapshot/69
-    ```
-    ```json
-   {
+```
+#### Example 2
+```
+/CompanyAppointment/Snapshot/69
+```
+```json
+{
   "person_number": "132910690001",
   "title": "MRS",
   "forenames": "ANNE LOUISE",
@@ -224,4 +226,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

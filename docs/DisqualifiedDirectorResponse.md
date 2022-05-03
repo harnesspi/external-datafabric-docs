@@ -1,71 +1,53 @@
 # DisqualifiedDirectorResponse
-## Description
-
 ## Properties
-### person_number
+- person_number (String)
 
+   
+- country_registration (String)
 
-Type Description: String
-### country_registration
+   
+- person_hpid (String)
 
+   
+- corporate_number (String)
 
-Type Description: String
-### person_hpid
+   
+- person_date_of_birth (String)
 
+   
+- title (String)
 
-Type Description: String
-### corporate_number
+   
+- forenames (String)
 
+   
+- surname (String)
 
-Type Description: String
-### person_date_of_birth
+   
+- honours (String)
 
+   
+- nationality (String)
 
-Type Description: String
-### title
+   
+- address_line1 (String)
 
+   
+- address_line2 (String)
 
-Type Description: String
-### forenames
+   
+- post_town (String)
 
+   
+- person_postcode (String)
 
-Type Description: String
-### surname
+   
+- country (String)
 
+   
+- disqualified_director_details_grid (Array of [DisqualifiedDirectorDetailsGridResponse](DisqualifiedDirectorDetailsGridResponse.md))
 
-Type Description: String
-### honours
-
-
-Type Description: String
-### nationality
-
-
-Type Description: String
-### address_line1
-
-
-Type Description: String
-### address_line2
-
-
-Type Description: String
-### post_town
-
-
-Type Description: String
-### person_postcode
-
-
-Type Description: String
-### country
-
-
-Type Description: String
-### disqualified_director_details_grid
-
-
-Type Description: Array of DisqualifiedDirectorDetailsGridResponse
+   
 
 ## Schema
 ```json
@@ -90,7 +72,4 @@ Type Description: Array of DisqualifiedDirectorDetailsGridResponse
        "disqualified_director_details_grid" : {"type" : "array", "items" : {"$ref" : "/schemas/DisqualifiedDirectorDetailsGrid"}
 }
 ```
-
-## Related Entities
-- [DisqualifiedDirectorDetailsGridResponse](DisqualifiedDirectorDetailsGridResponse.md)
 

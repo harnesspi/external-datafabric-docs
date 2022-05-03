@@ -2,14 +2,15 @@
 
 
 ## GET /landregistryleaseholdtitle/{parameterTitleNumber}
-- Response 200 (application/json)
-[LandRegistryLeaseholdTitleResponse](LandRegistryLeaseholdTitleResponse.md)
+### Response 200 (application/json)
+Content: [LandRegistryLeaseholdTitleResponse](LandRegistryLeaseholdTitleResponse.md)
 
-    ```
-   /LandRegistryLeaseholdTitle/100462/5D0FA4909B7C0FD9477C2275E1948C8F135E233F
-    ```
-    ```json
-   {
+#### Example 1
+```
+/LandRegistryLeaseholdTitle/100462/5D0FA4909B7C0FD9477C2275E1948C8F135E233F
+```
+```json
+{
   "title_number": "100462",
   "tenancy": "Leasehold",
   "id": "5D0FA4909B7C0FD9477C2275E1948C8F135E233F",
@@ -260,4 +261,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

@@ -1,31 +1,23 @@
 # LandRegistryTitleOwnerResponse
-## Description
-
 ## Properties
-### address
+- address (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### postcode
+   
+- companies (Array of [LandRegistryTitlesOwnerCompaniesGridResponse](LandRegistryTitlesOwnerCompaniesGridResponse.md))
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### companies
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: Array of LandRegistryTitlesOwnerCompaniesGridResponse
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -40,10 +32,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [LandRegistryTitlesOwnerCompaniesGridResponse](LandRegistryTitlesOwnerCompaniesGridResponse.md)
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

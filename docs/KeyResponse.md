@@ -1,31 +1,23 @@
 # KeyResponse
-## Description
-
 ## Properties
-### key_type
+- key_type (String)
 
+   
+- key_value (String)
 
-Type Description: String
-### key_value
+   
+- description (String)
 
+   
+- row_link (String)
 
-Type Description: String
-### description
+   
+- order_rank (String)
 
+   
+- row_link ([ValueLink](ValueLink.md) for [object](object.md))
 
-Type Description: String
-### row_link
-
-
-Type Description: String
-### order_rank
-
-
-Type Description: String
-### row_link
-
-
-Type Description: ValueLink for object
+   
 
 ## Schema
 ```json
@@ -41,7 +33,4 @@ Type Description: ValueLink for object
     }
 }
 ```
-
-## Related Entities
-- [ValueLink](ValueLink.md)
 

@@ -2,14 +2,15 @@
 This a test description
 
 ## GET /multisignature/{parameterHPIDs}
-- Response 200 (application/json)
-[MultiSignatureResponse](MultiSignatureResponse.md)
+### Response 200 (application/json)
+Content: [MultiSignatureResponse](MultiSignatureResponse.md)
 
-    ```
-   /MultiSignature/87fb49ea-9964-4612-bf91-9796ea75247e
-    ```
-    ```json
-   {
+#### Example 1
+```
+/MultiSignature/87fb49ea-9964-4612-bf91-9796ea75247e
+```
+```json
+{
   "hpids": "87fb49ea-9964-4612-bf91-9796ea75247e",
   "customer_reference": null,
   "add_to_cart": null,
@@ -308,4 +309,4 @@ This a test description
     }
   ]
 }
-    ```
+```

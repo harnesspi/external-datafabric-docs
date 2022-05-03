@@ -1,35 +1,26 @@
 # LandRegistryTitleOwnerTitlesResponse
-## Description
-
 ## Properties
-### company_id
+- company_id (String)
 
+   
+- company_type_id (String)
 
-Type Description: String
-### company_type_id
+   
+- name (String)
 
+   
+- company_type (String)
 
-Type Description: String
-### name
+   
+- registration_no (String)
 
+   
+- country (String)
 
-Type Description: String
-### company_type
+   
+- companies (Array of [LandRegistryTitlesOwnedByCompanyGridResponse](LandRegistryTitlesOwnedByCompanyGridResponse.md))
 
-
-Type Description: String
-### registration_no
-
-
-Type Description: String
-### country
-
-
-Type Description: String
-### companies
-
-
-Type Description: Array of LandRegistryTitlesOwnedByCompanyGridResponse
+   
 
 ## Schema
 ```json
@@ -45,7 +36,4 @@ Type Description: Array of LandRegistryTitlesOwnedByCompanyGridResponse
        "companies" : {"type" : "array", "items" : {"$ref" : "/schemas/LandRegistryTitlesOwnedByCompanyGrid"}
 }
 ```
-
-## Related Entities
-- [LandRegistryTitlesOwnedByCompanyGridResponse](LandRegistryTitlesOwnedByCompanyGridResponse.md)
 

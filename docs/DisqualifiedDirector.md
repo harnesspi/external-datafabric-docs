@@ -2,14 +2,15 @@
 
 
 ## GET /disqualifieddirector/{parameterPersonNumber}
-- Response 200 (application/json)
-[DisqualifiedDirectorResponse](DisqualifiedDirectorResponse.md)
+### Response 200 (application/json)
+Content: [DisqualifiedDirectorResponse](DisqualifiedDirectorResponse.md)
 
-    ```
-   /DisqualifiedDirector/001174930001
-    ```
-    ```json
-   {
+#### Example 1
+```
+/DisqualifiedDirector/001174930001
+```
+```json
+{
   "person_number": "001174930001",
   "country_registration": null,
   "person_hpid": "2f0b7d64-b2f6-e1a2-985c-1bc8b0325b90",
@@ -38,4 +39,4 @@
     }
   ]
 }
-    ```
+```

@@ -1,35 +1,26 @@
 # VOAAssessmentsDataGridResponse
-## Description
-
 ## Properties
-### assessment_reference
+- assessment_reference (String)
 
+   
+- list_year (String)
 
-Type Description: String
-### list_year
+   
+- from_date (String)
 
+   
+- to_date (String)
 
-Type Description: String
-### from_date
+   
+- primary_description_text (String)
 
+   
+- total_area (String)
 
-Type Description: String
-### to_date
+   
+- total_adj (String)
 
-
-Type Description: String
-### primary_description_text
-
-
-Type Description: String
-### total_area
-
-
-Type Description: String
-### total_adj
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -46,6 +37,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

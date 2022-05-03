@@ -1,39 +1,29 @@
 # LandRegistryLeaseResponse
-## Description
-
 ## Properties
-### id
+- id (String)
 
+   
+- description (String)
 
-Type Description: String
-### description
+   
+- county (String)
 
+   
+- region (String)
 
-Type Description: String
-### county
+   
+- tenure (String)
 
+   
+- price_paid (String)
 
-Type Description: String
-### region
+   
+- alienation_clause_indicator (String)
 
+   
+- land_registry_lease_entries_data_grid (Array of [LandRegistryLeaseEntriesDataGridResponse](LandRegistryLeaseEntriesDataGridResponse.md))
 
-Type Description: String
-### tenure
-
-
-Type Description: String
-### price_paid
-
-
-Type Description: String
-### alienation_clause_indicator
-
-
-Type Description: String
-### land_registry_lease_entries_data_grid
-
-
-Type Description: Array of LandRegistryLeaseEntriesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -50,7 +40,4 @@ Type Description: Array of LandRegistryLeaseEntriesDataGridResponse
        "land_registry_lease_entries_data_grid" : {"type" : "array", "items" : {"$ref" : "/schemas/LandRegistryLeaseEntriesDataGrid"}
 }
 ```
-
-## Related Entities
-- [LandRegistryLeaseEntriesDataGridResponse](LandRegistryLeaseEntriesDataGridResponse.md)
 

@@ -1,23 +1,17 @@
 # RightmoveHistoricPriceTransactionsGridResponse
-## Description
-
 ## Properties
-### date_sold
+- date_sold (String)
 
+   
+- display_price (String)
 
-Type Description: String
-### display_price
+   
+- tenure (String)
 
+   
+- new_build (String)
 
-Type Description: String
-### tenure
-
-
-Type Description: String
-### new_build
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -31,6 +25,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

@@ -2,14 +2,15 @@
 
 
 ## GET /scottishassessors/{parameterUARN}/{parameterOrganisationRole}
-- Response 200 (application/json)
-[ScottishAssessorsResponse](ScottishAssessorsResponse.md)
+### Response 200 (application/json)
+Content: [ScottishAssessorsResponse](ScottishAssessorsResponse.md)
 
-    ```
-   /ScottishAssessors/000121/P
-    ```
-    ```json
-   {
+#### Example 1
+```
+/ScottishAssessors/000121/P
+```
+```json
+{
   "uarn": "000121",
   "organisation_role": "P",
   "organisation": "FREDERICK C & MRS STELLA M STEWART SANDEMAN",
@@ -51,4 +52,4 @@
     }
   ]
 }
-    ```
+```

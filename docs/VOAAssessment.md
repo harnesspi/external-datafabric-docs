@@ -2,14 +2,15 @@
 
 
 ## GET /voaassessment/{parameterAssessmentReference}
-- Response 200 (application/json)
-[VOAAssessmentResponse](VOAAssessmentResponse.md)
+### Response 200 (application/json)
+Content: [VOAAssessmentResponse](VOAAssessmentResponse.md)
 
-    ```
-   /VOAAssessment/10000005000
-    ```
-    ```json
-   {
+#### Example 1
+```
+/VOAAssessment/10000005000
+```
+```json
+{
   "assessment_reference": "10000005000",
   "list_year": "2010",
   "uarn": "49110033",
@@ -81,4 +82,4 @@
     }
   ]
 }
-    ```
+```

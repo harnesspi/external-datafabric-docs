@@ -1,51 +1,38 @@
 # OrganisationResponse
-## Description
-
 ## Properties
-### organisation_hpid
+- organisation_hpid (String)
 
+   
+- normalised_organisation (String)
 
-Type Description: String
-### normalised_organisation
+   
+- significant_organisation_hpid (String)
 
+   
+- significant_organisation (String)
 
-Type Description: String
-### significant_organisation_hpid
+   
+- company_number (String)
 
+   
+- is_companies_house (String)
 
-Type Description: String
-### significant_organisation
+   
+- is_other_source (String)
 
+   
+- exact_name_sources (Array of [OrganisationRecordsDataGridResponse](OrganisationRecordsDataGridResponse.md))
 
-Type Description: String
-### company_number
+   
+- reg_no_related (Array of [RelatedRegNoOrganisationsDataGridResponse](RelatedRegNoOrganisationsDataGridResponse.md))
 
+   
+- keys (Array of [OrganisationKeysDataGridResponse](OrganisationKeysDataGridResponse.md))
 
-Type Description: String
-### is_companies_house
+   
+- organisation_titles (Array of [OrganisationLandRegistryTitlesGridResponse](OrganisationLandRegistryTitlesGridResponse.md))
 
-
-Type Description: String
-### is_other_source
-
-
-Type Description: String
-### exact_name_sources
-
-
-Type Description: Array of OrganisationRecordsDataGridResponse
-### reg_no_related
-
-
-Type Description: Array of RelatedRegNoOrganisationsDataGridResponse
-### keys
-
-
-Type Description: Array of OrganisationKeysDataGridResponse
-### organisation_titles
-
-
-Type Description: Array of OrganisationLandRegistryTitlesGridResponse
+   
 
 ## Schema
 ```json
@@ -65,10 +52,4 @@ Type Description: Array of OrganisationLandRegistryTitlesGridResponse
        "organisation_titles" : {"type" : "array", "items" : {"$ref" : "/schemas/OrganisationLandRegistryTitlesGrid"}
 }
 ```
-
-## Related Entities
-- [OrganisationRecordsDataGridResponse](OrganisationRecordsDataGridResponse.md)
-- [RelatedRegNoOrganisationsDataGridResponse](RelatedRegNoOrganisationsDataGridResponse.md)
-- [OrganisationKeysDataGridResponse](OrganisationKeysDataGridResponse.md)
-- [OrganisationLandRegistryTitlesGridResponse](OrganisationLandRegistryTitlesGridResponse.md)
 

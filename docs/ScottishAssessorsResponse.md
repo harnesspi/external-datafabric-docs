@@ -1,95 +1,71 @@
 # ScottishAssessorsResponse
-## Description
-
 ## Properties
-### uarn
+- uarn (String)
 
+   
+- organisation_role (String)
 
-Type Description: String
-### organisation_role
+   
+- organisation (String)
 
+   
+- address_date (String)
 
-Type Description: String
-### organisation
+   
+- description (String)
 
+   
+- nav (String)
 
-Type Description: String
-### address_date
+   
+- rv (String)
 
+   
+- res_apportion (String)
 
-Type Description: String
-### description
+   
+- non_res_apportion (String)
 
+   
+- sub_building_start_number (String)
 
-Type Description: String
-### nav
+   
+- sub_building_end_number (String)
 
+   
+- sub_building (String)
 
-Type Description: String
-### rv
+   
+- building_start_number (String)
 
+   
+- building_end_number (String)
 
-Type Description: String
-### res_apportion
+   
+- building (String)
 
+   
+- thoroughfare (String)
 
-Type Description: String
-### non_res_apportion
+   
+- post_town (String)
 
+   
+- dependent_locality (String)
 
-Type Description: String
-### sub_building_start_number
+   
+- postcode (String)
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### sub_building_end_number
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### sub_building
-
-
-Type Description: String
-### building_start_number
-
-
-Type Description: String
-### building_end_number
-
-
-Type Description: String
-### building
-
-
-Type Description: String
-### thoroughfare
-
-
-Type Description: String
-### post_town
-
-
-Type Description: String
-### dependent_locality
-
-
-Type Description: String
-### postcode
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -120,9 +96,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

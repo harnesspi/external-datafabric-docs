@@ -1,39 +1,29 @@
 # ICIJOfficerResponse
-## Description
-
 ## Properties
-### officer_id
+- officer_id (String)
 
+   
+- name (String)
 
-Type Description: String
-### name
+   
+- note (String)
 
+   
+- countries (String)
 
-Type Description: String
-### note
+   
+- country_codes (String)
 
+   
+- icij_source (String)
 
-Type Description: String
-### countries
+   
+- addresses (Array of [ICIJOfficerAddressesDataGridResponse](ICIJOfficerAddressesDataGridResponse.md))
 
+   
+- entities (Array of [ICIJOfficerEntitiesDataGridResponse](ICIJOfficerEntitiesDataGridResponse.md))
 
-Type Description: String
-### country_codes
-
-
-Type Description: String
-### icij_source
-
-
-Type Description: String
-### addresses
-
-
-Type Description: Array of ICIJOfficerAddressesDataGridResponse
-### entities
-
-
-Type Description: Array of ICIJOfficerEntitiesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -50,8 +40,4 @@ Type Description: Array of ICIJOfficerEntitiesDataGridResponse
        "entities" : {"type" : "array", "items" : {"$ref" : "/schemas/ICIJOfficerEntitiesDataGrid"}
 }
 ```
-
-## Related Entities
-- [ICIJOfficerAddressesDataGridResponse](ICIJOfficerAddressesDataGridResponse.md)
-- [ICIJOfficerEntitiesDataGridResponse](ICIJOfficerEntitiesDataGridResponse.md)
 

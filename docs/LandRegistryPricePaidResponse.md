@@ -1,87 +1,65 @@
 # LandRegistryPricePaidResponse
-## Description
-
 ## Properties
-### guid
+- guid (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### postcode
+   
+- building (String)
 
+   
+- flat (String)
 
-Type Description: String
-### building
+   
+- street (String)
 
+   
+- locality (String)
 
-Type Description: String
-### flat
+   
+- town (String)
 
+   
+- district (String)
 
-Type Description: String
-### street
+   
+- county (String)
 
+   
+- property_type (String)
 
-Type Description: String
-### locality
+   
+- new_build (String)
 
+   
+- estate_type (String)
 
-Type Description: String
-### town
+   
+- transaction_date (String)
 
+   
+- price (String)
 
-Type Description: String
-### district
+   
+- price_paid_type (String)
 
+   
+- id (String)
 
-Type Description: String
-### county
+   
+- title_number (String)
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### property_type
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### new_build
-
-
-Type Description: String
-### estate_type
-
-
-Type Description: String
-### transaction_date
-
-
-Type Description: String
-### price
-
-
-Type Description: String
-### price_paid_type
-
-
-Type Description: String
-### id
-
-
-Type Description: String
-### title_number
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -110,9 +88,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

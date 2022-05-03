@@ -1,27 +1,20 @@
 # SignatureKeyMatchingAttributeResponse
-## Description
-
 ## Properties
-### key_type
+- key_type (String)
 
+   
+- key_value (String)
 
-Type Description: String
-### key_value
+   
+- attribute_name (String)
 
+   
+- attribute_value (String)
 
-Type Description: String
-### attribute_name
+   
+- matching_attribute_addresses (Array of [MatchingAttributeAddressesDataGridResponse](MatchingAttributeAddressesDataGridResponse.md))
 
-
-Type Description: String
-### attribute_value
-
-
-Type Description: String
-### matching_attribute_addresses
-
-
-Type Description: Array of MatchingAttributeAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -35,7 +28,4 @@ Type Description: Array of MatchingAttributeAddressesDataGridResponse
        "matching_attribute_addresses" : {"type" : "array", "items" : {"$ref" : "/schemas/MatchingAttributeAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MatchingAttributeAddressesDataGridResponse](MatchingAttributeAddressesDataGridResponse.md)
 

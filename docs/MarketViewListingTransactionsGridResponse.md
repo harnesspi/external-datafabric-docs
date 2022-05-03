@@ -1,19 +1,14 @@
 # MarketViewListingTransactionsGridResponse
-## Description
-
 ## Properties
-### transaction_date
+- transaction_date (String)
 
+   
+- transaction_type (String)
 
-Type Description: String
-### transaction_type
+   
+- transaction_price (String)
 
-
-Type Description: String
-### transaction_price
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -26,6 +21,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

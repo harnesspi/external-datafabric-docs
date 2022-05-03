@@ -2,14 +2,15 @@
 
 
 ## GET /landregistrylease/{parameterID}
-- Response 200 (application/json)
-[LandRegistryLeaseResponse](LandRegistryLeaseResponse.md)
+### Response 200 (application/json)
+Content: [LandRegistryLeaseResponse](LandRegistryLeaseResponse.md)
 
-    ```
-   /LandRegistryLease/0000003D767C69D456C6B0475A3660A318E6B9F0
-    ```
-    ```json
-   {
+#### Example 1
+```
+/LandRegistryLease/0000003D767C69D456C6B0475A3660A318E6B9F0
+```
+```json
+{
   "id": "0000003D767C69D456C6B0475A3660A318E6B9F0",
   "description": "11 Tustan House, 98 Celsus Grove, Swindon and Parking Space (SN1 4GS)",
   "county": "SWINDON",
@@ -30,4 +31,4 @@
     }
   ]
 }
-    ```
+```

@@ -2,14 +2,15 @@
 
 
 ## GET /icijentity/{parameterEntityId}
-- Response 200 (application/json)
-[ICIJEntityResponse](ICIJEntityResponse.md)
+### Response 200 (application/json)
+Content: [ICIJEntityResponse](ICIJEntityResponse.md)
 
-    ```
-   /ICIJEntity/10
-    ```
-    ```json
-   {
+#### Example 1
+```
+/ICIJEntity/10
+```
+```json
+{
   "entity_id": "10",
   "name": "HUGH POWER LIMITED",
   "original_name": "HUGH POWER LIMITED",
@@ -89,12 +90,13 @@
     }
   ]
 }
-    ```
-    ```
-   /ICIJEntity/55
-    ```
-    ```json
-   {
+```
+#### Example 2
+```
+/ICIJEntity/55
+```
+```json
+{
   "entity_id": "55",
   "name": "SEG MECHANICAL LTD.",
   "original_name": "SEG MECHANICAL LTD.",
@@ -207,4 +209,4 @@
     }
   ]
 }
-    ```
+```

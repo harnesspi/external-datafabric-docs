@@ -1,15 +1,11 @@
 # PostalAreaStreetsDataGridResponse
-## Description
-
 ## Properties
-### usrn
+- usrn (String)
 
+   
+- street (String)
 
-Type Description: String
-### street
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -21,6 +17,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

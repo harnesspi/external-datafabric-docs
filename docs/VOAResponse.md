@@ -1,91 +1,68 @@
 # VOAResponse
-## Description
-
 ## Properties
-### uarn
+- uarn (String)
 
+   
+- description (String)
 
-Type Description: String
-### description
+   
+- scat_code (String)
 
+   
+- address_date (String)
 
-Type Description: String
-### scat_code
+   
+- source_name (String)
 
+   
+- firms_name (String)
 
-Type Description: String
-### address_date
+   
+- number_or_name (String)
 
+   
+- sub_street_level3 (String)
 
-Type Description: String
-### source_name
+   
+- sub_street_level2 (String)
 
+   
+- sub_street_level1 (String)
 
-Type Description: String
-### firms_name
+   
+- street (String)
 
+   
+- town (String)
 
-Type Description: String
-### number_or_name
+   
+- postal_district (String)
 
+   
+- county (String)
 
-Type Description: String
-### sub_street_level3
+   
+- postcode (String)
 
+   
+- assessments (Array of [VOAAssessmentsDataGridResponse](VOAAssessmentsDataGridResponse.md))
 
-Type Description: String
-### sub_street_level2
+   
+- list_entry_data_items (Array of [VOAListEntryDataItemsDataGridResponse](VOAListEntryDataItemsDataGridResponse.md))
 
+   
+- list_entry_data_items_historic (Array of [VOAListEntryDataItemsHistoricDataGridResponse](VOAListEntryDataItemsHistoricDataGridResponse.md))
 
-Type Description: String
-### sub_street_level1
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
-Type Description: String
-### street
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-
-Type Description: String
-### town
-
-
-Type Description: String
-### postal_district
-
-
-Type Description: String
-### county
-
-
-Type Description: String
-### postcode
-
-
-Type Description: String
-### assessments
-
-
-Type Description: Array of VOAAssessmentsDataGridResponse
-### list_entry_data_items
-
-
-Type Description: Array of VOAListEntryDataItemsDataGridResponse
-### list_entry_data_items_historic
-
-
-Type Description: Array of VOAListEntryDataItemsHistoricDataGridResponse
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -115,12 +92,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [VOAAssessmentsDataGridResponse](VOAAssessmentsDataGridResponse.md)
-- [VOAListEntryDataItemsDataGridResponse](VOAListEntryDataItemsDataGridResponse.md)
-- [VOAListEntryDataItemsHistoricDataGridResponse](VOAListEntryDataItemsHistoricDataGridResponse.md)
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

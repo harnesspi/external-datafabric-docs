@@ -1,35 +1,26 @@
 # VOAAssessmentDetailsGridResponse
-## Description
-
 ## Properties
-### detail_source
+- detail_source (String)
 
+   
+- floor (String)
 
-Type Description: String
-### floor
+   
+- description (String)
 
+   
+- area (String)
 
-Type Description: String
-### description
+   
+- price (String)
 
+   
+- value (String)
 
-Type Description: String
-### area
+   
+- percentage (String)
 
-
-Type Description: String
-### price
-
-
-Type Description: String
-### value
-
-
-Type Description: String
-### percentage
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -46,6 +37,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

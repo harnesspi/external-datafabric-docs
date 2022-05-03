@@ -1,43 +1,32 @@
 # MultiSignatureRelatedListingsGridResponse
-## Description
-
 ## Properties
-### listing_id
+- listing_id ([ValueLink](ValueLink.md) for [object](object.md))
 
+   
+- display_address (String)
 
-Type Description: ValueLink for object
-### display_address
+   
+- property_type (String)
 
+   
+- bedrooms (String)
 
-Type Description: String
-### property_type
+   
+- transaction_type (String)
 
+   
+- asking_price (String)
 
-Type Description: String
-### bedrooms
+   
+- relevancy (String)
 
+   
+- last_update (String)
 
-Type Description: String
-### transaction_type
+   
+- inactive (String)
 
-
-Type Description: String
-### asking_price
-
-
-Type Description: String
-### relevancy
-
-
-Type Description: String
-### last_update
-
-
-Type Description: String
-### inactive
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -56,7 +45,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
-- [ValueLink](ValueLink.md)
 

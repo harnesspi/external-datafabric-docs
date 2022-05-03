@@ -1,383 +1,287 @@
 # EPCDomesticResponse
-## Description
-
 ## Properties
-### lmk_key
+- lmk_key (String)
 
+   
+- address1 (String)
 
-Type Description: String
-### address1
+   
+- address2 (String)
 
+   
+- address3 (String)
 
-Type Description: String
-### address2
+   
+- postcode (String)
 
+   
+- address (String)
 
-Type Description: String
-### address3
+   
+- local_authority_label (String)
 
+   
+- constituency_label (String)
 
-Type Description: String
-### postcode
+   
+- certificate_hash (String)
 
+   
+- building_reference_number (String)
 
-Type Description: String
-### address
+   
+- current_energy_rating (String)
 
+   
+- potential_energy_rating (String)
 
-Type Description: String
-### local_authority_label
+   
+- current_energy_efficiency (String)
 
+   
+- potential_energy_efficiency (String)
 
-Type Description: String
-### constituency_label
+   
+- property_type (String)
 
+   
+- total_floor_area (String)
 
-Type Description: String
-### certificate_hash
+   
+- floor_level (String)
 
+   
+- built_form (String)
 
-Type Description: String
-### building_reference_number
+   
+- inspection_date (String)
 
+   
+- local_authority (String)
 
-Type Description: String
-### current_energy_rating
+   
+- constituency (String)
 
+   
+- county (String)
 
-Type Description: String
-### potential_energy_rating
+   
+- lodgement_date (String)
 
+   
+- transaction_type (String)
 
-Type Description: String
-### current_energy_efficiency
+   
+- environment_impact_current (String)
 
+   
+- environment_impact_potential (String)
 
-Type Description: String
-### potential_energy_efficiency
+   
+- energy_consumption_current (String)
 
+   
+- energy_consumption_potential (String)
 
-Type Description: String
-### property_type
+   
+- co2_emissions_current (String)
 
+   
+- co2_emiss_curr_per_floor_area (String)
 
-Type Description: String
-### total_floor_area
+   
+- co2_emissions_potential (String)
 
+   
+- lighting_cost_current (String)
 
-Type Description: String
-### floor_level
+   
+- lighting_cost_potential (String)
 
+   
+- heating_cost_current (String)
 
-Type Description: String
-### built_form
+   
+- heating_cost_potential (String)
 
+   
+- hot_water_cost_current (String)
 
-Type Description: String
-### inspection_date
+   
+- hot_water_cost_potential (String)
 
+   
+- energy_tariff (String)
 
-Type Description: String
-### local_authority
+   
+- mains_gas_flag (String)
 
+   
+- flat_top_storey (String)
 
-Type Description: String
-### constituency
+   
+- flat_storey_count (String)
 
+   
+- main_heating_controls (String)
 
-Type Description: String
-### county
+   
+- multi_glaze_proportion (String)
 
+   
+- glazed_type (String)
 
-Type Description: String
-### lodgement_date
+   
+- glazed_area (String)
 
+   
+- extension_count (String)
 
-Type Description: String
-### transaction_type
+   
+- number_habitable_rooms (String)
 
+   
+- number_heated_rooms (String)
 
-Type Description: String
-### environment_impact_current
+   
+- low_energy_lighting (String)
 
+   
+- number_open_fireplaces (String)
 
-Type Description: String
-### environment_impact_potential
+   
+- hotwater_description (String)
 
+   
+- hot_water_energy_eff (String)
 
-Type Description: String
-### energy_consumption_current
+   
+- hot_water_env_eff (String)
 
+   
+- floor_description (String)
 
-Type Description: String
-### energy_consumption_potential
+   
+- floor_energy_eff (String)
 
+   
+- floor_env_eff (String)
 
-Type Description: String
-### co2_emissions_current
+   
+- windows_description (String)
 
+   
+- windows_energy_eff (String)
 
-Type Description: String
-### co2_emiss_curr_per_floor_area
+   
+- windows_env_eff (String)
 
+   
+- walls_description (String)
 
-Type Description: String
-### co2_emissions_potential
+   
+- walls_energy_eff (String)
 
+   
+- walls_env_eff (String)
 
-Type Description: String
-### lighting_cost_current
+   
+- secondheat_description (String)
 
+   
+- sheating_energy_eff (String)
 
-Type Description: String
-### lighting_cost_potential
+   
+- sheating_env_eff (String)
 
+   
+- roof_description (String)
 
-Type Description: String
-### heating_cost_current
+   
+- roof_energy_eff (String)
 
+   
+- roof_env_eff (String)
 
-Type Description: String
-### heating_cost_potential
+   
+- mainheat_description (String)
 
+   
+- mainheat_energy_eff (String)
 
-Type Description: String
-### hot_water_cost_current
+   
+- mainheat_env_eff (String)
 
+   
+- mainheatcont_description (String)
 
-Type Description: String
-### hot_water_cost_potential
+   
+- mainheatc_energy_eff (String)
 
+   
+- mainheatc_env_eff (String)
 
-Type Description: String
-### energy_tariff
+   
+- lighting_description (String)
 
+   
+- lighting_energy_eff (String)
 
-Type Description: String
-### mains_gas_flag
+   
+- lighting_env_eff (String)
 
+   
+- main_fuel (String)
 
-Type Description: String
-### flat_top_storey
+   
+- wind_turbine_count (String)
 
+   
+- heat_loss_corridoor (String)
 
-Type Description: String
-### flat_storey_count
+   
+- unheated_corridor_length (String)
 
+   
+- floor_height (String)
 
-Type Description: String
-### main_heating_controls
+   
+- photo_supply (String)
 
+   
+- solar_water_heating_flag (String)
 
-Type Description: String
-### multi_glaze_proportion
+   
+- mechanical_ventilation (String)
 
+   
+- posttown (String)
 
-Type Description: String
-### glazed_type
+   
+- construction_age_band (String)
 
+   
+- lodgement_datetime (String)
 
-Type Description: String
-### glazed_area
+   
+- tenure (String)
 
+   
+- fixed_lighting_outlets_count (String)
 
-Type Description: String
-### extension_count
+   
+- low_energy_fixed_light_count (String)
 
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
-Type Description: String
-### number_habitable_rooms
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-Type Description: String
-### number_heated_rooms
-
-
-Type Description: String
-### low_energy_lighting
-
-
-Type Description: String
-### number_open_fireplaces
-
-
-Type Description: String
-### hotwater_description
-
-
-Type Description: String
-### hot_water_energy_eff
-
-
-Type Description: String
-### hot_water_env_eff
-
-
-Type Description: String
-### floor_description
-
-
-Type Description: String
-### floor_energy_eff
-
-
-Type Description: String
-### floor_env_eff
-
-
-Type Description: String
-### windows_description
-
-
-Type Description: String
-### windows_energy_eff
-
-
-Type Description: String
-### windows_env_eff
-
-
-Type Description: String
-### walls_description
-
-
-Type Description: String
-### walls_energy_eff
-
-
-Type Description: String
-### walls_env_eff
-
-
-Type Description: String
-### secondheat_description
-
-
-Type Description: String
-### sheating_energy_eff
-
-
-Type Description: String
-### sheating_env_eff
-
-
-Type Description: String
-### roof_description
-
-
-Type Description: String
-### roof_energy_eff
-
-
-Type Description: String
-### roof_env_eff
-
-
-Type Description: String
-### mainheat_description
-
-
-Type Description: String
-### mainheat_energy_eff
-
-
-Type Description: String
-### mainheat_env_eff
-
-
-Type Description: String
-### mainheatcont_description
-
-
-Type Description: String
-### mainheatc_energy_eff
-
-
-Type Description: String
-### mainheatc_env_eff
-
-
-Type Description: String
-### lighting_description
-
-
-Type Description: String
-### lighting_energy_eff
-
-
-Type Description: String
-### lighting_env_eff
-
-
-Type Description: String
-### main_fuel
-
-
-Type Description: String
-### wind_turbine_count
-
-
-Type Description: String
-### heat_loss_corridoor
-
-
-Type Description: String
-### unheated_corridor_length
-
-
-Type Description: String
-### floor_height
-
-
-Type Description: String
-### photo_supply
-
-
-Type Description: String
-### solar_water_heating_flag
-
-
-Type Description: String
-### mechanical_ventilation
-
-
-Type Description: String
-### posttown
-
-
-Type Description: String
-### construction_age_band
-
-
-Type Description: String
-### lodgement_datetime
-
-
-Type Description: String
-### tenure
-
-
-Type Description: String
-### fixed_lighting_outlets_count
-
-
-Type Description: String
-### low_energy_fixed_light_count
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -480,9 +384,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

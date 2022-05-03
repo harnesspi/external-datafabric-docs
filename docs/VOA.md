@@ -2,14 +2,15 @@
 
 
 ## GET /voa/{parameterUARN}
-- Response 200 (application/json)
-[VOAResponse](VOAResponse.md)
+### Response 200 (application/json)
+Content: [VOAResponse](VOAResponse.md)
 
-    ```
-   /VOA/49110033
-    ```
-    ```json
-   {
+#### Example 1
+```
+/VOA/49110033
+```
+```json
+{
   "uarn": "49110033",
   "description": "Shop And Premises",
   "scat_code": "249",
@@ -178,12 +179,13 @@
   ],
   "no_signatures": []
 }
-    ```
-    ```
-   /VOA/420475252
-    ```
-    ```json
-   {
+```
+#### Example 2
+```
+/VOA/420475252
+```
+```json
+{
   "uarn": "420475252",
   "description": "PUBLIC HOUSE AND PREMISES",
   "scat_code": "226G",
@@ -253,4 +255,4 @@
     }
   ]
 }
-    ```
+```

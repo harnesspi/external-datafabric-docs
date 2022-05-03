@@ -2,6 +2,6 @@
 
 
 ## GET /titleuprn/{parameterAddressHPID}
-- Response 200 (application/json)
-[TitleUPRNResponse](TitleUPRNResponse.md)
+### Response 200 (application/json)
+Content: [TitleUPRNResponse](TitleUPRNResponse.md)
 

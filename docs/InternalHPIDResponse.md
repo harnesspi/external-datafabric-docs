@@ -1,67 +1,50 @@
 # InternalHPIDResponse
-## Description
-
 ## Properties
-### signature_hpid
+- signature_hpid (String)
 
+   
+- internal_hpid (String)
 
-Type Description: String
-### internal_hpid
+   
+- organisation (String)
 
+   
+- description (String)
 
-Type Description: String
-### organisation
+   
+- level (String)
 
+   
+- unit (String)
 
-Type Description: String
-### description
+   
+- flat (String)
 
+   
+- room (String)
 
-Type Description: String
-### level
+   
+- parking (String)
 
+   
+- land (String)
 
-Type Description: String
-### unit
+   
+- plot (String)
 
+   
+- block (String)
 
-Type Description: String
-### flat
+   
+- arch (String)
 
+   
+- object_type (String)
 
-Type Description: String
-### room
+   
+- signature_internal_addresses (Array of [SignatureInternalAddressesGridResponse](SignatureInternalAddressesGridResponse.md))
 
-
-Type Description: String
-### parking
-
-
-Type Description: String
-### land
-
-
-Type Description: String
-### plot
-
-
-Type Description: String
-### block
-
-
-Type Description: String
-### arch
-
-
-Type Description: String
-### object_type
-
-
-Type Description: String
-### signature_internal_addresses
-
-
-Type Description: Array of SignatureInternalAddressesGridResponse
+   
 
 ## Schema
 ```json
@@ -85,7 +68,4 @@ Type Description: Array of SignatureInternalAddressesGridResponse
        "signature_internal_addresses" : {"type" : "array", "items" : {"$ref" : "/schemas/SignatureInternalAddressesGrid"}
 }
 ```
-
-## Related Entities
-- [SignatureInternalAddressesGridResponse](SignatureInternalAddressesGridResponse.md)
 

@@ -1,43 +1,32 @@
 # LandRegistryTitleResponse
-## Description
-
 ## Properties
-### title_number
+- title_number (String)
 
+   
+- tenancy (String)
 
-Type Description: String
-### tenancy
+   
+- id (String)
 
+   
+- key_signatures (Array of [KeySignaturesGridResponse](KeySignaturesGridResponse.md))
 
-Type Description: String
-### id
+   
+- land_registry_title_upr_ns (Array of [LandRegistryTitleUPRNsGridResponse](LandRegistryTitleUPRNsGridResponse.md))
 
+   
+- key_signatures_internals (Array of [KeySignaturesInternalsGridResponse](KeySignaturesInternalsGridResponse.md))
 
-Type Description: String
-### key_signatures
+   
+- key_addresses_data_grid (Array of [KeyAddressesDataGridResponse](KeyAddressesDataGridResponse.md))
 
+   
+- title_details_data_grid (Array of [TitleDetailsDataGridResponse](TitleDetailsDataGridResponse.md))
 
-Type Description: Array of KeySignaturesGridResponse
-### land_registry_title_upr_ns
+   
+- listings (Array of [SignatureKeyRelatedListingsGridResponse](SignatureKeyRelatedListingsGridResponse.md))
 
-
-Type Description: Array of LandRegistryTitleUPRNsGridResponse
-### key_signatures_internals
-
-
-Type Description: Array of KeySignaturesInternalsGridResponse
-### key_addresses_data_grid
-
-
-Type Description: Array of KeyAddressesDataGridResponse
-### title_details_data_grid
-
-
-Type Description: Array of TitleDetailsDataGridResponse
-### listings
-
-
-Type Description: Array of SignatureKeyRelatedListingsGridResponse
+   
 
 ## Schema
 ```json
@@ -55,12 +44,4 @@ Type Description: Array of SignatureKeyRelatedListingsGridResponse
        "listings" : {"type" : "array", "items" : {"$ref" : "/schemas/SignatureKeyRelatedListingsGrid"}
 }
 ```
-
-## Related Entities
-- [KeySignaturesGridResponse](KeySignaturesGridResponse.md)
-- [LandRegistryTitleUPRNsGridResponse](LandRegistryTitleUPRNsGridResponse.md)
-- [KeySignaturesInternalsGridResponse](KeySignaturesInternalsGridResponse.md)
-- [KeyAddressesDataGridResponse](KeyAddressesDataGridResponse.md)
-- [TitleDetailsDataGridResponse](TitleDetailsDataGridResponse.md)
-- [SignatureKeyRelatedListingsGridResponse](SignatureKeyRelatedListingsGridResponse.md)
 

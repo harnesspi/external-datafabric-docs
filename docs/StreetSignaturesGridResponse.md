@@ -1,31 +1,23 @@
 # StreetSignaturesGridResponse
-## Description
-
 ## Properties
-### signature_hpid
-Test description here
+- signature_hpid ([ValueLink](ValueLink.md) for [SignatureHPIDResponse](SignatureHPIDResponse.md))
 
-Type Description: ValueLink for SignatureHPIDResponse
-### building_name
+   Test description here
+- building_name (String)
 
+   
+- start_number (String)
 
-Type Description: String
-### start_number
+   
+- end_number (String)
 
+   
+- keys (Array of [KeyValueLinks](KeyValueLink.md) for [SignatureKeyResponse](SignatureKeyResponse.md))
 
-Type Description: String
-### end_number
+   
+- usrn ([ValueLink](ValueLink.md) for [StreetResponse](StreetResponse.md))
 
-
-Type Description: String
-### keys
-
-
-Type Description: Array of KeyValueLinks for SignatureKeyResponse
-### usrn
-
-
-Type Description: ValueLink for StreetResponse
+   
 
 ## Schema
 ```json
@@ -41,11 +33,4 @@ Type Description: ValueLink for StreetResponse
     }
 }
 ```
-
-## Related Entities
-- [SignatureHPIDResponse](SignatureHPIDResponse.md)
-- [ValueLink](ValueLink.md)
-- [SignatureKeyResponse](SignatureKeyResponse.md)
-- [KeyValueLink](KeyValueLink.md)
-- [StreetResponse](StreetResponse.md)
 

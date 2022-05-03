@@ -2,14 +2,15 @@
 
 
 ## GET /person/{parameterPersonHPID}
-- Response 200 (application/json)
-[PersonResponse](PersonResponse.md)
+### Response 200 (application/json)
+Content: [PersonResponse](PersonResponse.md)
 
-    ```
-   /Person/F3149A0A-6585-0D4A-686B-4834880E1C15/196211
-    ```
-    ```json
-   {
+#### Example 1
+```
+/Person/F3149A0A-6585-0D4A-686B-4834880E1C15/196211
+```
+```json
+{
   "person_hpid": "f3149a0a-6585-0d4a-686b-4834880e1c15",
   "name": "IVI ORFANIDOU MICHAIL",
   "month_of_birth": [
@@ -27,12 +28,13 @@
     }
   ]
 }
-    ```
-    ```
-   /Person/F3149A0A-6585-0D4A-686B-4834880E1C15
-    ```
-    ```json
-   {
+```
+#### Example 2
+```
+/Person/F3149A0A-6585-0D4A-686B-4834880E1C15
+```
+```json
+{
   "person_hpid": "f3149a0a-6585-0d4a-686b-4834880e1c15",
   "name": "IVI ORFANIDOU MICHAIL",
   "month_of_birth": [
@@ -50,4 +52,4 @@
     }
   ]
 }
-    ```
+```

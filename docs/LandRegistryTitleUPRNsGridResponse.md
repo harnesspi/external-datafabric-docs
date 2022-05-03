@@ -1,31 +1,23 @@
 # LandRegistryTitleUPRNsGridResponse
-## Description
-
 ## Properties
-### address_hpid
+- address_hpid (String)
 
+   
+- signature_hpid (String)
 
-Type Description: String
-### signature_hpid
+   
+- uprn (String)
 
+   
+- organisation (String)
 
-Type Description: String
-### uprn
+   
+- address (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### organisation
-
-
-Type Description: String
-### address
-
-
-Type Description: String
-### postcode
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -41,6 +33,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

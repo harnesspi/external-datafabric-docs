@@ -2,14 +2,15 @@
 
 
 ## GET /landregistrytitleownership/{parameterTitleNumber}
-- Response 200 (application/json)
-[LandRegistryTitleOwnershipResponse](LandRegistryTitleOwnershipResponse.md)
+### Response 200 (application/json)
+Content: [LandRegistryTitleOwnershipResponse](LandRegistryTitleOwnershipResponse.md)
 
-    ```
-   /LandRegistryTitleOwnership/100073
-    ```
-    ```json
-   {
+#### Example 1
+```
+/LandRegistryTitleOwnership/100073
+```
+```json
+{
   "title_number": "100073",
   "tenure": "Freehold",
   "property_address": "11 Stanley Crescent, London (W11 2NA)",
@@ -97,4 +98,4 @@
   ],
   "no_signatures": []
 }
-    ```
+```

@@ -2,14 +2,15 @@
 
 
 ## GET /organisation/{parameterOrganisationHPID}
-- Response 200 (application/json)
-[OrganisationResponse](OrganisationResponse.md)
+### Response 200 (application/json)
+Content: [OrganisationResponse](OrganisationResponse.md)
 
-    ```
-   /Organisation/D7F187B1-EFDB-FC7F-CAB9-333789D6534A
-    ```
-    ```json
-   {
+#### Example 1
+```
+/Organisation/D7F187B1-EFDB-FC7F-CAB9-333789D6534A
+```
+```json
+{
   "organisation_hpid": "d7f187b1-efdb-fc7f-cab9-333789d6534a",
   "normalised_organisation": "NOTTING HILL HOME OWNERSHIP LTD",
   "significant_organisation_hpid": "d99939c1-3367-9fdc-e92a-d9779bf07291",
@@ -14590,4 +14591,4 @@
     }
   ]
 }
-    ```
+```

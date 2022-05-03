@@ -1,47 +1,35 @@
 # NoSignatureAddressesDataGridResponse
-## Description
-
 ## Properties
-### source_name
+- source_name (String)
 
+   
+- row_key (String)
 
-Type Description: String
-### row_key
+   
+- row_key_subfix (String)
 
+   
+- organisation (String)
 
-Type Description: String
-### row_key_subfix
+   
+- address (String)
 
+   
+- usrn (String)
 
-Type Description: String
-### organisation
+   
+- street (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### address
+   
+- building (String)
 
+   
+- url_query ([KeyValueLink](KeyValueLink.md) for [object](object.md))
 
-Type Description: String
-### usrn
-
-
-Type Description: String
-### street
-
-
-Type Description: String
-### postcode
-
-
-Type Description: String
-### building
-
-
-Type Description: String
-### url_query
-
-
-Type Description: KeyValueLink for object
+   
 
 ## Schema
 ```json
@@ -61,7 +49,4 @@ Type Description: KeyValueLink for object
     }
 }
 ```
-
-## Related Entities
-- [KeyValueLink](KeyValueLink.md)
 

@@ -1,43 +1,32 @@
 # SignatureInternalKeyAddressesGridResponse
-## Description
-
 ## Properties
-### signature_hpid
+- signature_hpid (String)
 
+   
+- address_hpid (String)
 
-Type Description: String
-### address_hpid
+   
+- source_name (String)
 
+   
+- key (String)
 
-Type Description: String
-### source_name
+   
+- uprn (String)
 
+   
+- organisation (String)
 
-Type Description: String
-### key
+   
+- address (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### uprn
+   
+- url_query (String)
 
-
-Type Description: String
-### organisation
-
-
-Type Description: String
-### address
-
-
-Type Description: String
-### postcode
-
-
-Type Description: String
-### url_query
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -56,6 +45,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

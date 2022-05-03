@@ -1,171 +1,128 @@
 # ExperianShopPointResponse
-## Description
-
 ## Properties
-### location_urn
+- location_urn (String)
 
+   
+- fascia (String)
 
-Type Description: String
-### fascia
+   
+- activity (String)
 
+   
+- brand (String)
 
-Type Description: String
-### activity
+   
+- retail_group_name (String)
 
+   
+- address1 (String)
 
-Type Description: String
-### brand
+   
+- address2 (String)
 
+   
+- locality (String)
 
-Type Description: String
-### retail_group_name
+   
+- town (String)
 
+   
+- county (String)
 
-Type Description: String
-### address1
+   
+- region (String)
 
+   
+- country (String)
 
-Type Description: String
-### address2
+   
+- postcode (String)
 
+   
+- x (String)
 
-Type Description: String
-### locality
+   
+- y (String)
 
+   
+- lat (String)
 
-Type Description: String
-### town
+   
+- long (String)
 
+   
+- output_area (String)
 
-Type Description: String
-### county
+   
+- postal_sector (String)
 
+   
+- standard_location_name (String)
 
-Type Description: String
-### region
+   
+- location_name (String)
 
+   
+- managed_site_name (String)
 
-Type Description: String
-### country
+   
+- site_classification (String)
 
+   
+- category (String)
 
-Type Description: String
-### postcode
+   
+- sub_class (String)
 
+   
+- top_class (String)
 
-Type Description: String
-### x
+   
+- report_type (String)
 
+   
+- group_name (String)
 
-Type Description: String
-### y
+   
+- sic_code_description (String)
 
+   
+- use_class (String)
 
-Type Description: String
-### lat
+   
+- sq_ft (String)
 
+   
+- occupancy_confidence_level (String)
 
-Type Description: String
-### long
+   
+- source (String)
 
+   
+- concession (String)
 
-Type Description: String
-### output_area
+   
+- verification_date (String)
 
+   
+- trading_floors (String)
 
-Type Description: String
-### postal_sector
+   
+- car_park_spaces (String)
 
+   
+- comments (String)
 
-Type Description: String
-### standard_location_name
+   
+- signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 
+   
+- internals (Array of [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md))
 
-Type Description: String
-### location_name
+   
+- no_signatures (Array of [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md))
 
-
-Type Description: String
-### managed_site_name
-
-
-Type Description: String
-### site_classification
-
-
-Type Description: String
-### category
-
-
-Type Description: String
-### sub_class
-
-
-Type Description: String
-### top_class
-
-
-Type Description: String
-### report_type
-
-
-Type Description: String
-### group_name
-
-
-Type Description: String
-### sic_code_description
-
-
-Type Description: String
-### use_class
-
-
-Type Description: String
-### sq_ft
-
-
-Type Description: String
-### occupancy_confidence_level
-
-
-Type Description: String
-### source
-
-
-Type Description: String
-### concession
-
-
-Type Description: String
-### verification_date
-
-
-Type Description: String
-### trading_floors
-
-
-Type Description: String
-### car_park_spaces
-
-
-Type Description: String
-### comments
-
-
-Type Description: String
-### signatures
-
-
-Type Description: Array of MultiSignatureGridResponse
-### internals
-
-
-Type Description: Array of MultiInternalAddressesGridResponse
-### no_signatures
-
-
-Type Description: Array of NoSignatureAddressesDataGridResponse
+   
 
 ## Schema
 ```json
@@ -215,9 +172,4 @@ Type Description: Array of NoSignatureAddressesDataGridResponse
        "no_signatures" : {"type" : "array", "items" : {"$ref" : "/schemas/NoSignatureAddressesDataGrid"}
 }
 ```
-
-## Related Entities
-- [MultiSignatureGridResponse](MultiSignatureGridResponse.md)
-- [MultiInternalAddressesGridResponse](MultiInternalAddressesGridResponse.md)
-- [NoSignatureAddressesDataGridResponse](NoSignatureAddressesDataGridResponse.md)
 

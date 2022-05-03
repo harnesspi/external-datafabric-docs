@@ -1,15 +1,11 @@
 # CompaniesHistoricNamesDataGridResponse
-## Description
-
 ## Properties
-### company_name
+- company_name (String)
 
+   
+- company_name_end_date (String)
 
-Type Description: String
-### company_name_end_date
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -21,6 +17,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

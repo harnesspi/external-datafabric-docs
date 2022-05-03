@@ -1,31 +1,23 @@
 # PersonWithSignificantControlCompaniesDataGridResponse
-## Description
-
 ## Properties
-### month_of_birth
+- month_of_birth (String)
 
+   
+- match (String)
 
-Type Description: String
-### match
+   
+- e_tag (String)
 
+   
+- company_number (String)
 
-Type Description: String
-### e_tag
+   
+- company_name (String)
 
+   
+- natures_of_control (String)
 
-Type Description: String
-### company_number
-
-
-Type Description: String
-### company_name
-
-
-Type Description: String
-### natures_of_control
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -41,6 +33,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

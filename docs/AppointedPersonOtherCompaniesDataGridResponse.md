@@ -1,19 +1,14 @@
 # AppointedPersonOtherCompaniesDataGridResponse
-## Description
-
 ## Properties
-### company_number
+- company_number (String)
 
+   
+- company_name (String)
 
-Type Description: String
-### company_name
+   
+- sic_code_sic_text1 (String)
 
-
-Type Description: String
-### sic_code_sic_text1
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -26,6 +21,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

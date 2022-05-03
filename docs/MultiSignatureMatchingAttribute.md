@@ -2,14 +2,15 @@
 
 
 ## GET /multisignaturematchingattribute/{parameterHPIDs}
-- Response 200 (application/json)
-[MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md)
+### Response 200 (application/json)
+Content: [MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md)
 
-    ```
-   /MultiSignatureMatchingAttribute/87fb49ea-9964-4612-bf91-9796ea75247e/Level/BST
-    ```
-    ```json
-   {
+#### Example 1
+```
+/MultiSignatureMatchingAttribute/87fb49ea-9964-4612-bf91-9796ea75247e/Level/BST
+```
+```json
+{
   "hpids": "87fb49ea-9964-4612-bf91-9796ea75247e",
   "attribute_name": "Level",
   "attribute_value": "BST",
@@ -31,4 +32,4 @@
     }
   ]
 }
-    ```
+```

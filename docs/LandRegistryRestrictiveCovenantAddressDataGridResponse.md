@@ -1,23 +1,17 @@
 # LandRegistryRestrictiveCovenantAddressDataGridResponse
-## Description
-
 ## Properties
-### id
+- id (String)
 
+   
+- entry_number (String)
 
-Type Description: String
-### entry_number
+   
+- address_id (String)
 
+   
+- address (String)
 
-Type Description: String
-### address_id
-
-
-Type Description: String
-### address
-
-
-Type Description: String
+   
 
 ## Schema
 ```json
@@ -31,6 +25,4 @@ Type Description: String
     }
 }
 ```
-
-## Related Entities
 

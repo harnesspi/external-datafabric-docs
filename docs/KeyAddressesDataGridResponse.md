@@ -1,51 +1,38 @@
 # KeyAddressesDataGridResponse
-## Description
-
 ## Properties
-### records_count
+- records_count (String)
 
+   
+- ordinal_number (String)
 
-Type Description: String
-### ordinal_number
+   
+- signature_hpid (String)
 
+   
+- address_hpid (String)
 
-Type Description: String
-### signature_hpid
+   
+- source_name (String)
 
+   
+- key (String)
 
-Type Description: String
-### address_hpid
+   
+- uprn (String)
 
+   
+- organisation (String)
 
-Type Description: String
-### source_name
+   
+- address (String)
 
+   
+- postcode (String)
 
-Type Description: String
-### key
+   
+- url_query ([KeyValueLink](KeyValueLink.md) for [object](object.md))
 
-
-Type Description: String
-### uprn
-
-
-Type Description: String
-### organisation
-
-
-Type Description: String
-### address
-
-
-Type Description: String
-### postcode
-
-
-Type Description: String
-### url_query
-
-
-Type Description: KeyValueLink for object
+   
 
 ## Schema
 ```json
@@ -66,7 +53,4 @@ Type Description: KeyValueLink for object
     }
 }
 ```
-
-## Related Entities
-- [KeyValueLink](KeyValueLink.md)
 

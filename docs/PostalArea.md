@@ -2,14 +2,15 @@
 
 
 ## GET /postalarea/{parameterAreaType}/{parameterAreaName}
-- Response 200 (application/json)
-[PostalAreaResponse](PostalAreaResponse.md)
+### Response 200 (application/json)
+Content: [PostalAreaResponse](PostalAreaResponse.md)
 
-    ```
-   /PostalArea/Local Authority/RICHMOND UPON THAMES
-    ```
-    ```json
-   {
+#### Example 1
+```
+/PostalArea/Local Authority/RICHMOND UPON THAMES
+```
+```json
+{
   "area_type": "Local Authority",
   "area_name": "RICHMOND UPON THAMES",
   "customer_reference": null,
@@ -7664,4 +7665,4 @@
     }
   ]
 }
-    ```
+```
