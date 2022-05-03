@@ -1,10 +1,9 @@
 # Company
 
-```
-/company/{parameterCompanyNumber}
-```
-returns [CompanyResponse](CompanyResponse.md)
-## Example Responses
+
+## GET /company/{parameterCompanyNumber}
+- Response 200 (application/json)
+[CompanyResponse](CompanyResponse.md)
 ```
 /Company/00001556
 ```

@@ -1,10 +1,9 @@
 # CompanyAppointment
 
-```
-/companyappointment/{parameterFileName}/{parameterLineNumber}
-```
-returns [CompanyAppointmentResponse](CompanyAppointmentResponse.md)
-## Example Responses
+
+## GET /companyappointment/{parameterFileName}/{parameterLineNumber}
+- Response 200 (application/json)
+[CompanyAppointmentResponse](CompanyAppointmentResponse.md)
 ```
 /CompanyAppointment/Snapshot/140559
 ```

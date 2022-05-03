@@ -1,7 +1,6 @@
 # FoodStandardsAgency
 
-```
-/foodstandardsagency/{parameterFHRSID}
-```
-returns [FoodStandardsAgencyResponse](FoodStandardsAgencyResponse.md)
-## Example Responses
+
+## GET /foodstandardsagency/{parameterFHRSID}
+- Response 200 (application/json)
+[FoodStandardsAgencyResponse](FoodStandardsAgencyResponse.md)

@@ -1,10 +1,9 @@
 # ICIJEntity
 
-```
-/icijentity/{parameterEntityId}
-```
-returns [ICIJEntityResponse](ICIJEntityResponse.md)
-## Example Responses
+
+## GET /icijentity/{parameterEntityId}
+- Response 200 (application/json)
+[ICIJEntityResponse](ICIJEntityResponse.md)
 ```
 /ICIJEntity/10
 ```

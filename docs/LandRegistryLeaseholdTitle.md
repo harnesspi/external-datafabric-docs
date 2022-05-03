@@ -1,10 +1,9 @@
 # LandRegistryLeaseholdTitle
 
-```
-/landregistryleaseholdtitle/{parameterTitleNumber}
-```
-returns [LandRegistryLeaseholdTitleResponse](LandRegistryLeaseholdTitleResponse.md)
-## Example Responses
+
+## GET /landregistryleaseholdtitle/{parameterTitleNumber}
+- Response 200 (application/json)
+[LandRegistryLeaseholdTitleResponse](LandRegistryLeaseholdTitleResponse.md)
 ```
 /LandRegistryLeaseholdTitle/100462/5D0FA4909B7C0FD9477C2275E1948C8F135E233F
 ```

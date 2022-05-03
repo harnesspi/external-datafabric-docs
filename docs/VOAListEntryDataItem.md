@@ -1,7 +1,6 @@
 # VOAListEntryDataItem
 
-```
-/voalistentrydataitem/{parameterAssessmentReference}
-```
-returns [VOAListEntryDataItemResponse](VOAListEntryDataItemResponse.md)
-## Example Responses
+
+## GET /voalistentrydataitem/{parameterAssessmentReference}
+- Response 200 (application/json)
+[VOAListEntryDataItemResponse](VOAListEntryDataItemResponse.md)

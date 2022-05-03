@@ -1,10 +1,9 @@
 # LandRegistryRestrictiveCovenant
 
-```
-/landregistryrestrictivecovenant/{parameterID}
-```
-returns [LandRegistryRestrictiveCovenantResponse](LandRegistryRestrictiveCovenantResponse.md)
-## Example Responses
+
+## GET /landregistryrestrictivecovenant/{parameterID}
+- Response 200 (application/json)
+[LandRegistryRestrictiveCovenantResponse](LandRegistryRestrictiveCovenantResponse.md)
 ```
 /LandRegistryRestrictiveCovenant/0000002FB084A15F3F49DC2B4A8DFF5328EC705E
 ```

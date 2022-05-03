@@ -1,10 +1,9 @@
 # LandRegistryTitleOwnerTitles
 
-```
-/landregistrytitleownertitles/{parameterCompanyId}
-```
-returns [LandRegistryTitleOwnerTitlesResponse](LandRegistryTitleOwnerTitlesResponse.md)
-## Example Responses
+
+## GET /landregistrytitleownertitles/{parameterCompanyId}
+- Response 200 (application/json)
+[LandRegistryTitleOwnerTitlesResponse](LandRegistryTitleOwnerTitlesResponse.md)
 ```
 /LandRegistryTitleOwnerTitles/BD831F5B-282D-0E49-CBD4-0000439FFC8E
 ```

@@ -1,7 +1,6 @@
 # EPCNonDomestic
 
-```
-/epcnondomestic/{parameterLmkKey}
-```
-returns [EPCNonDomesticResponse](EPCNonDomesticResponse.md)
-## Example Responses
+
+## GET /epcnondomestic/{parameterLmkKey}
+- Response 200 (application/json)
+[EPCNonDomesticResponse](EPCNonDomesticResponse.md)

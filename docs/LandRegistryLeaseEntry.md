@@ -1,7 +1,6 @@
 # LandRegistryLeaseEntry
 
-```
-/landregistryleaseentry/{parameterID}/{parameterEntryNumber}
-```
-returns [LandRegistryLeaseEntryResponse](LandRegistryLeaseEntryResponse.md)
-## Example Responses
+
+## GET /landregistryleaseentry/{parameterID}/{parameterEntryNumber}
+- Response 200 (application/json)
+[LandRegistryLeaseEntryResponse](LandRegistryLeaseEntryResponse.md)

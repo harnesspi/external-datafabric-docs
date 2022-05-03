@@ -1,10 +1,9 @@
 # VOA
 
-```
-/voa/{parameterUARN}
-```
-returns [VOAResponse](VOAResponse.md)
-## Example Responses
+
+## GET /voa/{parameterUARN}
+- Response 200 (application/json)
+[VOAResponse](VOAResponse.md)
 ```
 /VOA/49110033
 ```

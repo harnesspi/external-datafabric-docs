@@ -1,7 +1,6 @@
 # VOAListEntryDataItemHistoric
 
-```
-/voalistentrydataitemhistoric/{parameterAssessmentReference}
-```
-returns [VOAListEntryDataItemHistoricResponse](VOAListEntryDataItemHistoricResponse.md)
-## Example Responses
+
+## GET /voalistentrydataitemhistoric/{parameterAssessmentReference}
+- Response 200 (application/json)
+[VOAListEntryDataItemHistoricResponse](VOAListEntryDataItemHistoricResponse.md)

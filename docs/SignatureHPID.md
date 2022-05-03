@@ -1,10 +1,9 @@
 # SignatureHPID
 
-```
-/signaturehpid/{parameterSignatureHPID}
-```
-returns [SignatureHPIDResponse](SignatureHPIDResponse.md)
-## Example Responses
+
+## GET /signaturehpid/{parameterSignatureHPID}
+- Response 200 (application/json)
+[SignatureHPIDResponse](SignatureHPIDResponse.md)
 ```
 /SignatureHPID/87fb49ea-9964-4612-bf91-9796ea75247e
 ```

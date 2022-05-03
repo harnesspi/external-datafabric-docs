@@ -1,7 +1,6 @@
 # TitleUPRN
 
-```
-/titleuprn/{parameterAddressHPID}
-```
-returns [TitleUPRNResponse](TitleUPRNResponse.md)
-## Example Responses
+
+## GET /titleuprn/{parameterAddressHPID}
+- Response 200 (application/json)
+[TitleUPRNResponse](TitleUPRNResponse.md)

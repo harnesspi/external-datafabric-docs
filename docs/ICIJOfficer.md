@@ -1,10 +1,9 @@
 # ICIJOfficer
 
-```
-/icijofficer/{parameterOfficerId}
-```
-returns [ICIJOfficerResponse](ICIJOfficerResponse.md)
-## Example Responses
+
+## GET /icijofficer/{parameterOfficerId}
+- Response 200 (application/json)
+[ICIJOfficerResponse](ICIJOfficerResponse.md)
 ```
 /ICIJOfficer/228647
 ```

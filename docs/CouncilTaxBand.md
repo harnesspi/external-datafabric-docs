@@ -1,7 +1,6 @@
 # CouncilTaxBand
 
-```
-/counciltaxband/{parameterID}
-```
-returns [CouncilTaxBandResponse](CouncilTaxBandResponse.md)
-## Example Responses
+
+## GET /counciltaxband/{parameterID}
+- Response 200 (application/json)
+[CouncilTaxBandResponse](CouncilTaxBandResponse.md)

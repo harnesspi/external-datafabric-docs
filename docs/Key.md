@@ -1,9 +1,9 @@
 # Key
-```
-/key/{parameterKey}
-```
-returns [Array of KeyResponse](KeyResponse.md)
-## Example Responses
+
+
+## GET /key/{parameterKey}
+- Response 200 (application/json)
+[Array of KeyResponse](KeyResponse.md)
 ```
 /Key/cf2e37f7-fde4-cb2b-951b-dab63872db39
 ```

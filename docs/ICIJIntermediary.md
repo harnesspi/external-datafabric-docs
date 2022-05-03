@@ -1,10 +1,9 @@
 # ICIJIntermediary
 
-```
-/icijintermediary/{parameterIntermediaryId}
-```
-returns [ICIJIntermediaryResponse](ICIJIntermediaryResponse.md)
-## Example Responses
+
+## GET /icijintermediary/{parameterIntermediaryId}
+- Response 200 (application/json)
+[ICIJIntermediaryResponse](ICIJIntermediaryResponse.md)
 ```
 /ICIJIntermediary/214489
 ```

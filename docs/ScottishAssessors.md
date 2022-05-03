@@ -1,10 +1,9 @@
 # ScottishAssessors
 
-```
-/scottishassessors/{parameterUARN}/{parameterOrganisationRole}
-```
-returns [ScottishAssessorsResponse](ScottishAssessorsResponse.md)
-## Example Responses
+
+## GET /scottishassessors/{parameterUARN}/{parameterOrganisationRole}
+- Response 200 (application/json)
+[ScottishAssessorsResponse](ScottishAssessorsResponse.md)
 ```
 /ScottishAssessors/000121/P
 ```

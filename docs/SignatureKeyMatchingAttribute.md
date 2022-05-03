@@ -1,7 +1,6 @@
 # SignatureKeyMatchingAttribute
 
-```
-/signaturekeymatchingattribute/{parameterKeyType}/{parameterKeyValue}
-```
-returns [SignatureKeyMatchingAttributeResponse](SignatureKeyMatchingAttributeResponse.md)
-## Example Responses
+
+## GET /signaturekeymatchingattribute/{parameterKeyType}/{parameterKeyValue}
+- Response 200 (application/json)
+[SignatureKeyMatchingAttributeResponse](SignatureKeyMatchingAttributeResponse.md)

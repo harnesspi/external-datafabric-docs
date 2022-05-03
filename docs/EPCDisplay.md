@@ -1,7 +1,6 @@
 # EPCDisplay
 
-```
-/epcdisplay/{parameterLmkKey}
-```
-returns [EPCDisplayResponse](EPCDisplayResponse.md)
-## Example Responses
+
+## GET /epcdisplay/{parameterLmkKey}
+- Response 200 (application/json)
+[EPCDisplayResponse](EPCDisplayResponse.md)

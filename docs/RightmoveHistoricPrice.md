@@ -1,10 +1,9 @@
 # RightmoveHistoricPrice
 
-```
-/rightmovehistoricprice/{parameterPropertyID}
-```
-returns [RightmoveHistoricPriceResponse](RightmoveHistoricPriceResponse.md)
-## Example Responses
+
+## GET /rightmovehistoricprice/{parameterPropertyID}
+- Response 200 (application/json)
+[RightmoveHistoricPriceResponse](RightmoveHistoricPriceResponse.md)
 ```
 /RightmoveHistoricPrice/000004AC-23B1-55FF-6ABA-E63A9A746F18
 ```

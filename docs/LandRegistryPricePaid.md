@@ -1,7 +1,6 @@
 # LandRegistryPricePaid
 
-```
-/landregistrypricepaid/{parameterGUID}
-```
-returns [LandRegistryPricePaidResponse](LandRegistryPricePaidResponse.md)
-## Example Responses
+
+## GET /landregistrypricepaid/{parameterGUID}
+- Response 200 (application/json)
+[LandRegistryPricePaidResponse](LandRegistryPricePaidResponse.md)

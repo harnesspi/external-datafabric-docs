@@ -1,7 +1,6 @@
 # EPCDomestic
 
-```
-/epcdomestic/{parameterLmkKey}
-```
-returns [EPCDomesticResponse](EPCDomesticResponse.md)
-## Example Responses
+
+## GET /epcdomestic/{parameterLmkKey}
+- Response 200 (application/json)
+[EPCDomesticResponse](EPCDomesticResponse.md)

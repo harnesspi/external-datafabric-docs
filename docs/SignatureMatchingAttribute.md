@@ -1,7 +1,6 @@
 # SignatureMatchingAttribute
 
-```
-/signaturematchingattribute/{parameterSignatureHPID}
-```
-returns [SignatureMatchingAttributeResponse](SignatureMatchingAttributeResponse.md)
-## Example Responses
+
+## GET /signaturematchingattribute/{parameterSignatureHPID}
+- Response 200 (application/json)
+[SignatureMatchingAttributeResponse](SignatureMatchingAttributeResponse.md)

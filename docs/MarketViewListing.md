@@ -1,10 +1,9 @@
 # MarketViewListing
 
-```
-/marketviewlisting/{parameterListingId}
-```
-returns [MarketViewListingResponse](MarketViewListingResponse.md)
-## Example Responses
+
+## GET /marketviewlisting/{parameterListingId}
+- Response 200 (application/json)
+[MarketViewListingResponse](MarketViewListingResponse.md)
 ```
 /MarketViewListing/R100009982
 ```

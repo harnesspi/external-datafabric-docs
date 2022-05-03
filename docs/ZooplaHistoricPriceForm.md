@@ -1,10 +1,9 @@
 # ZooplaHistoricPriceForm
 
-```
-/zooplahistoricpriceform/{parameterPropertyID}
-```
-returns [ZooplaHistoricPriceFormResponse](ZooplaHistoricPriceFormResponse.md)
-## Example Responses
+
+## GET /zooplahistoricpriceform/{parameterPropertyID}
+- Response 200 (application/json)
+[ZooplaHistoricPriceFormResponse](ZooplaHistoricPriceFormResponse.md)
 ```
 /ZooplaHistoricPriceForm/5020
 ```

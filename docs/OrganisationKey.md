@@ -1,10 +1,9 @@
 # OrganisationKey
 
-```
-/organisationkey/{parameterKeyType}/{parameterKeyValue}
-```
-returns [OrganisationKeyResponse](OrganisationKeyResponse.md)
-## Example Responses
+
+## GET /organisationkey/{parameterKeyType}/{parameterKeyValue}
+- Response 200 (application/json)
+[OrganisationKeyResponse](OrganisationKeyResponse.md)
 ```
 /OrganisationKey/CompaniesHouseRegNo/00000402
 ```

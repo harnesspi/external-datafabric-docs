@@ -1,10 +1,9 @@
 # InternalHPID
 
-```
-/internalhpid/{parameterInternalHPID}
-```
-returns [InternalHPIDResponse](InternalHPIDResponse.md)
-## Example Responses
+
+## GET /internalhpid/{parameterInternalHPID}
+- Response 200 (application/json)
+[InternalHPIDResponse](InternalHPIDResponse.md)
 ```
 /InternalHPID/4108cbdc-50e6-0bfc-290c-baa8adcf5033
 ```

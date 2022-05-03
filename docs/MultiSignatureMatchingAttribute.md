@@ -1,10 +1,9 @@
 # MultiSignatureMatchingAttribute
 
-```
-/multisignaturematchingattribute/{parameterHPIDs}
-```
-returns [MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md)
-## Example Responses
+
+## GET /multisignaturematchingattribute/{parameterHPIDs}
+- Response 200 (application/json)
+[MultiSignatureMatchingAttributeResponse](MultiSignatureMatchingAttributeResponse.md)
 ```
 /MultiSignatureMatchingAttribute/87fb49ea-9964-4612-bf91-9796ea75247e/Level/BST
 ```

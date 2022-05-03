@@ -1,10 +1,9 @@
 # Person
 
-```
-/person/{parameterPersonHPID}
-```
-returns [PersonResponse](PersonResponse.md)
-## Example Responses
+
+## GET /person/{parameterPersonHPID}
+- Response 200 (application/json)
+[PersonResponse](PersonResponse.md)
 ```
 /Person/F3149A0A-6585-0D4A-686B-4834880E1C15/196211
 ```

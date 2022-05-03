@@ -1,10 +1,9 @@
 # VOAAssessment
 
-```
-/voaassessment/{parameterAssessmentReference}
-```
-returns [VOAAssessmentResponse](VOAAssessmentResponse.md)
-## Example Responses
+
+## GET /voaassessment/{parameterAssessmentReference}
+- Response 200 (application/json)
+[VOAAssessmentResponse](VOAAssessmentResponse.md)
 ```
 /VOAAssessment/10000005000
 ```
