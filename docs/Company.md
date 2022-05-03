@@ -3,8 +3,8 @@
 
 ## GET /company/{parameterCompanyNumber}
 - Response 200 (application/json)
-
 [CompanyResponse](CompanyResponse.md)
+
     ```
    /Company/00001556
     ```

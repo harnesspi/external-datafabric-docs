@@ -3,8 +3,8 @@
 
 ## GET /landregistryrestrictivecovenantaddress/{parameterID}/{parameterEntryNumber}
 - Response 200 (application/json)
-
 [LandRegistryRestrictiveCovenantAddressResponse](LandRegistryRestrictiveCovenantAddressResponse.md)
+
     ```
    /LandRegistryRestrictiveCovenantAddress/0000002FB084A15F3F49DC2B4A8DFF5328EC705E/1
     ```

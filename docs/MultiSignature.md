@@ -3,8 +3,8 @@ This a test description
 
 ## GET /multisignature/{parameterHPIDs}
 - Response 200 (application/json)
-
 [MultiSignatureResponse](MultiSignatureResponse.md)
+
     ```
    /MultiSignature/87fb49ea-9964-4612-bf91-9796ea75247e
     ```

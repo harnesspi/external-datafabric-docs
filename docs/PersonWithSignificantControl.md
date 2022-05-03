@@ -3,8 +3,8 @@
 
 ## GET /personwithsignificantcontrol/{parameterETag}
 - Response 200 (application/json)
-
 [PersonWithSignificantControlResponse](PersonWithSignificantControlResponse.md)
+
     ```
    /PersonWithSignificantControl/000014ef02b2ecd132eed3d81e27616771376951
     ```

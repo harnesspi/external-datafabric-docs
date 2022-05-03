@@ -3,8 +3,8 @@
 
 ## GET /postalarea/{parameterAreaType}/{parameterAreaName}
 - Response 200 (application/json)
-
 [PostalAreaResponse](PostalAreaResponse.md)
+
     ```
    /PostalArea/Local Authority/RICHMOND UPON THAMES
     ```

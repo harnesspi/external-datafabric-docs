@@ -3,8 +3,8 @@
 
 ## GET /addressmatcher/{parameterAddress}
 - Response 200 (application/json)
-
 [Array of AddressMatcherResponse](AddressMatcherResponse.md)
+
     ```
    /AddressMatcher/2 townshend road richmond
     ```

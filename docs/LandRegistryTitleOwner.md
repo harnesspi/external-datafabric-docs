@@ -3,8 +3,8 @@
 
 ## GET /landregistrytitleowner/{parameterAddressId}/{parameterCompanyId}
 - Response 200 (application/json)
-
 [LandRegistryTitleOwnerResponse](LandRegistryTitleOwnerResponse.md)
+
     ```
    /LandRegistryTitleOwner/9F0459F0-6702-55C4-9888-E30028D3821E/5B1E336F-761F-296D-781F-00004071C41F
     ```

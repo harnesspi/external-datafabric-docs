@@ -3,8 +3,8 @@
 
 ## GET /voa/{parameterUARN}
 - Response 200 (application/json)
-
 [VOAResponse](VOAResponse.md)
+
     ```
    /VOA/49110033
     ```

@@ -3,8 +3,8 @@
 
 ## GET /street/{parameterUSRN}
 - Response 200 (application/json)
-
 [StreetResponse](StreetResponse.md)
+
     ```
    /Street/22406023
     ```

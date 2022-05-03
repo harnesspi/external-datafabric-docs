@@ -3,8 +3,8 @@
 
 ## GET /icijentity/{parameterEntityId}
 - Response 200 (application/json)
-
 [ICIJEntityResponse](ICIJEntityResponse.md)
+
     ```
    /ICIJEntity/10
     ```

@@ -3,8 +3,8 @@
 
 ## GET /organisation/{parameterOrganisationHPID}
 - Response 200 (application/json)
-
 [OrganisationResponse](OrganisationResponse.md)
+
     ```
    /Organisation/D7F187B1-EFDB-FC7F-CAB9-333789D6534A
     ```

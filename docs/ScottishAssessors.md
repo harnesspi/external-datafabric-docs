@@ -3,8 +3,8 @@
 
 ## GET /scottishassessors/{parameterUARN}/{parameterOrganisationRole}
 - Response 200 (application/json)
-
 [ScottishAssessorsResponse](ScottishAssessorsResponse.md)
+
     ```
    /ScottishAssessors/000121/P
     ```

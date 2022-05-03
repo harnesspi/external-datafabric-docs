@@ -3,8 +3,8 @@
 
 ## GET /addressfinder/{parameterAddress}
 - Response 200 (application/json)
-
 [Array of AddressFinderResponse](AddressFinderResponse.md)
+
     ```
    /AddressFinder/2 townshend road richmond
     ```

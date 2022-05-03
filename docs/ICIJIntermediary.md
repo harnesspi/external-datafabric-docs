@@ -3,8 +3,8 @@
 
 ## GET /icijintermediary/{parameterIntermediaryId}
 - Response 200 (application/json)
-
 [ICIJIntermediaryResponse](ICIJIntermediaryResponse.md)
+
     ```
    /ICIJIntermediary/214489
     ```

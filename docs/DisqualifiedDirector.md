@@ -3,8 +3,8 @@
 
 ## GET /disqualifieddirector/{parameterPersonNumber}
 - Response 200 (application/json)
-
 [DisqualifiedDirectorResponse](DisqualifiedDirectorResponse.md)
+
     ```
    /DisqualifiedDirector/001174930001
     ```
