@@ -9,7 +9,7 @@
     "type":"object",
     "properties": {
     "properties": {
-        "value": "string"
+        "value": "string",
         "link": "string"
     }
 }

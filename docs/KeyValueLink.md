@@ -10,8 +10,8 @@
     "type":"object",
     "properties": {
     "properties": {
-        "key": "string"
-        "value": "string"
+        "key": "string",
+        "value": "string",
         "link": "string"
     }
 }
