@@ -16,12 +16,6 @@ The Data Fabric API consists of a set of REST endpoints that allow clients to ea
 ### Security
 When you start using the the Data Fabric APIs you will be provided with your own API Key to include in each request, either as a Header or Query Parameter with a value of `Subscription-Key`.
 
-### HPID
-???
-
-## Links
-???
-
 ### Find an address
 The Data Fabric Address Finder is a search tool that can quickly identify properties using a partial address string. It's the ideal *entry point* to begin navigating through the Data Fabric APIs. This API call can work with a text box to allow users to search for properties in Data Fabric, providing quick response times as a user types.
 
@@ -198,27 +192,6 @@ A list of all the address data associated with the selected signatures.
 }
 
 ```
-#### Listings
-A list of listings that are linked to the selected signatures.
-
-##### Response Example
-```json
-{
-    "listing_id": {
-        "value": "R83618640",
-        "link": "/MarketViewListing/R83618640"
-    },
-    "display_address": "The Shard, 24th/25th floors\n32 London Bridge Street, London",
-    "property_type": "Serviced Office",
-    "bedrooms": null,
-    "transaction_type": "RENT",
-    "asking_price": "18510",
-    "relevancy": "2",
-    "last_update": "2022-05-09T00:00:00",
-    "inactive": "0"
-}
-
-```
 ### Lookup Keys Data
 Signatures in Data Fabric include keys for related data, a list of keys is returned in the signature lookup, detailed above. Keys can refer to different types of data, some of the supported types are:
 - BuildingPolygon
@@ -240,6 +213,20 @@ HTTP GET
 /SignatureKey/Postcode/SE1 9QU
 ```
 #### Response Example
-```
-EXAMPLE HERE
+```json
+{
+    "key_type": "Postcode",
+    "key_value": "SE1 9QU",
+    "customer_reference": null,
+    "add_to_cart": null,
+    "date_context": null,
+    "refresh_date_context": null,
+    "view_map_iframe": null,
+    "open_related_signatures": null,
+    "data_sources_chart": null,
+    "key_signatures": [],
+    "key_signatures_internals": [],
+    "key_addresses_data_grid": [],
+    "listings": []
+}
 ```
