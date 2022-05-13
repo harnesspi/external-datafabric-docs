@@ -38,21 +38,21 @@ HTTP GET
 /AddressFinder/THE SHARD 31 ST THOMAS
 ```
 #### Response Example
-```
+```json
 [
     {
-        "HPID": {
+        "hpid": {
             "value": "f8ea03ec-5892-e4cb-c627-e8d194ee87bf",
             "link": "/MultiSignature/f8ea03ec-5892-e4cb-c627-e8d194ee87bf"
         },
-        "Address": "THE SHARD 31 ST THOMAS ST SE1 9BS"
+        "address": "THE SHARD 31 ST THOMAS ST SE1 9BS"
     },
     {
-        "HPID": {
+        "hpid": {
             "value": "7b74eace-f404-0ba0-399c-f1caf78960dd",
             "link": "/MultiSignature/7b74eace-f404-0ba0-399c-f1caf78960dd"
         },
-        "Address": "THE SHARD ST THOMAS ST SE1 9BS"
+        "address": "THE SHARD ST THOMAS ST SE1 9BS"
     }
 ]
 ```
@@ -74,19 +74,19 @@ HTTP GET
 ```
 
 #### Response Example
-```
+```json
 {
-    "HPIDs": "f8ea03ec-5892-e4cb-c627-e8d194ee87bf",
-    "CustomerReference": null,
-    "AddToCart": null,
-    "PolygonType": null,
-    "ViewMapIframe": null,
-    "OpenRelatedSignatures": null,
-    "DataSourcesChart": null,
-    "Signatures": [],
-    "SignatureInternals": [],
-    "Addresses": [ ],
-    "Listings": []
+    "hpids": "f8ea03ec-5892-e4cb-c627-e8d194ee87bf",
+    "customer_reference": null,
+    "add_to_cart": null,
+    "polygon_type": null,
+    "view_map_iframe": null,
+    "open_related_signatures": null,
+    "data_sources_chart": null,
+    "signatures": [],
+    "signature_internals": [],
+    "addresses": [ ],
+    "listings": []
 }
 ```
 The signatures response includes a number of object arrays containing items associated with  the HPIDs that were used to query the API, including:
@@ -99,21 +99,21 @@ The signatures response includes a number of object arrays containing items asso
 #### Signatures and Keys
 A detailed signature object for each HPID, including an array of keys thats can be used to lookup associated address data. 
 ##### Response Example
-```
+```json
 {
-    "SignatureHPID": {
+    "signature_hpid": {
         "value": "f8ea03ec-5892-e4cb-c627-e8d194ee87bf",
         "link": "/SignatureHPID/f8ea03ec-5892-e4cb-c627-e8d194ee87bf"
     },
-    "Building Name": "THE SHARD",
-    "Start Number": "31",
-    "End Number": null,
-    "USRN": {
+    "building_name": "THE SHARD",
+    "start_number": "31",
+    "end_number": null,
+    "usrn": {
         "value": "22502357",
         "link": "/Street/22502357"
     },
-    "Street": "ST THOMAS ST",
-    "Keys": []
+    "street": "ST THOMAS ST",
+    "keys": []
 }
 ```
 Keys can refer to different types of data, some of the supported types are:
@@ -126,7 +126,7 @@ The keys endpoint is detailed below, it accepts a key type (e.g. postcode) and I
 
 ##### Response Example
 
-```
+```json
 {
     "key": "Postcode",
     "value": "SE1 9QU",
@@ -139,39 +139,39 @@ A list of all the internal signatures that are part of the selected parent signa
 
 ##### Response Example
 
-```
+```json
 {
-    "SignatureHPID": "f8ea03ec-5892-e4cb-c627-e8d194ee87bf",
-    "InternalHPID": {
+    "signature_hpid": "f8ea03ec-5892-e4cb-c627-e8d194ee87bf",
+    "internal_hpid": {
         "value": "4d05c40f-474d-553e-05ab-68bceed5f18d",
         "link": "/InternalHPID/4d05c40f-474d-553e-05ab-68bceed5f18d"
     },
-    "Organisation": {
+    "organisation": {
         "value": "SHANGRI LA HOTELS PTE LTD",
         "link": "/MultiSignatureMatchingAttribute/f8ea03ec-5892-e4cb-c627-e8d194ee87bf/Organisation/SHANGRI LA HOTELS PTE LTD"
     },
-    "Land": null,
-    "Plot": null,
-    "Block": null,
-    "Level": {
+    "land": null,
+    "plot": null,
+    "block": null,
+    "level": {
         "value": "50",
         "link": "/MultiSignatureMatchingAttribute/f8ea03ec-5892-e4cb-c627-e8d194ee87bf/Level/50"
     },
-    "Arch": null,
-    "Unit": null,
-    "Flat": null,
-    "Room": null,
-    "Parking": null,
-    "Description": "FLR 52 BEING THE SHANGRI LA HOTEL",
-    "ObjectType": null,
-    "Keys": [
+    "arch": null,
+    "unit": null,
+    "flat": null,
+    "room": null,
+    "parking": null,
+    "description": "FLR 52 BEING THE SHANGRI LA HOTEL",
+    "objectType": null,
+    "keys": [
         {
             "key": "LandRegistryLeasehold",
             "value": "TGL395949",
             "link": "/SignatureInternalKey/4d05c40f-474d-553e-05ab-68bceed5f18d/LandRegistryLeasehold/TGL395949"
         }
     ],
-    "Signature": "THE SHARD 31 ST THOMAS ST"
+    "signature": "THE SHARD 31 ST THOMAS ST"
 }
 ```
 
@@ -180,17 +180,17 @@ A list of all the internal signatures that are part of the selected parent signa
 A list of all the address data associated with the selected signatures.
 ##### Response Example
 
-```
+```json
  {
-    "SignatureHPID": "f8ea03ec-5892-e4cb-c627-e8d194ee87bf",
-    "AddressHPID": "bc04f9fd-6e3b-9f78-35dd-ed3b5b68fdc1",
-    "SourceName": "VOA",
-    "Key": "9969965000",
-    "UPRN": null,
-    "Organisation": null,
-    "Address": "|PT LEVEL 27|||THE SHARD 31|ST THOMAS STREET",
-    "Postcode": "SE1 9RY",
-    "URLQuery": {
+    "signature_hpid": "f8ea03ec-5892-e4cb-c627-e8d194ee87bf",
+    "address_hpid": "bc04f9fd-6e3b-9f78-35dd-ed3b5b68fdc1",
+    "source_name": "VOA",
+    "key": "9969965000",
+    "uprn": null,
+    "organisation": null,
+    "address": "|PT LEVEL 27|||THE SHARD 31|ST THOMAS STREET",
+    "postcode": "SE1 9RY",
+    "url_query": {
         "key": "VOA",
         "value": "9969965000",
         "link": "/VOA/9969965000"
@@ -202,17 +202,20 @@ A list of all the address data associated with the selected signatures.
 A list of listings that are linked to the selected signatures.
 
 ##### Response Example
-```
+```json
 {
-    "ListingId": "R113747765",
-    "DisplayAddress": "Telephone Kiosk, nr. The Shard o/s 17/19 St Thomas Street, London, SE1 9RY",
-    "PropertyType": "Commercial Property",
-    "Bedrooms": null,
-    "TransactionType": "BUY",
-    "AskingPrice": "49000",
-    "Relevancy": "2",
-    "Last Update": "2022-02-28T00:00:00",
-    "Inactive": "0"
+    "listing_id": {
+        "value": "R83618640",
+        "link": "/MarketViewListing/R83618640"
+    },
+    "display_address": "The Shard, 24th/25th floors\n32 London Bridge Street, London",
+    "property_type": "Serviced Office",
+    "bedrooms": null,
+    "transaction_type": "RENT",
+    "asking_price": "18510",
+    "relevancy": "2",
+    "last_update": "2022-05-09T00:00:00",
+    "inactive": "0"
 }
 
 ```
