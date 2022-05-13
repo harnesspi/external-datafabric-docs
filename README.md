@@ -13,6 +13,7 @@ Data Fabric pulls together a wide variety of property address data, although thi
 The Data Fabric API consists of a set of REST endpoints that allow clients to easily naivigate this data in a flexible way to suit their integration requirements.
 
 ## Getting Started
+Full API documentation can be found on the DataFabric GitHub Repo.
 ### Security
 When you start using the the Data Fabric APIs you will be provided with your own API Key to include in each request, either as a Header or Query Parameter with a value of `Subscription-Key`.
 
