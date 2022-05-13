@@ -12,6 +12,10 @@ Data Fabric pulls together a wide variety of property address data, although thi
 
 The Data Fabric API consists of a set of REST endpoints that allow clients to easily naivigate this data in a flexible way to suit their integration requirements.
 
+The Data Fabric API uses the terms **Signature** and **HPID** a lot.
+A **Signature** is Data Fabric's normalised, structured view on a street-level address, such a named building's address in a street, or simply a residential house in a terrace.
+An **HPID** is the HARNESS Property Identifier, which identifies signatures (street level addresses) as well as internal address (for example, a unit on a floor in a large office). It is the smallest unit of resolution in Data Fabric, and is the foundation of its joining capability.
+
 ## Getting Started
 Full API documentation can be found on the DataFabric GitHub Repo.
 ### Security
