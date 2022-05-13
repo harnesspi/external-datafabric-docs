@@ -1,6 +1,4 @@
 # MultiSignatureResponse
-## Description
-This a test description
 ## Properties
 - signatures (Array of [MultiSignatureGridResponse](MultiSignatureGridResponse.md))
 

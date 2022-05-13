@@ -9,8 +9,6 @@
 - [InternalHPID](InternalHPID.md)
 - [SignatureInternalKey](SignatureInternalKey.md)
 - [MultiSignature](MultiSignature.md)
-
-   This a test description
 - [Address](Address.md)
 - [VOA](VOA.md)
 - [VOAAssessment](VOAAssessment.md)
@@ -38,8 +36,6 @@
 - [FoodStandardsAgency](FoodStandardsAgency.md)
 - [ScottishAssessors](ScottishAssessors.md)
 - [MarketViewListing](MarketViewListing.md)
-- [ZooplaHistoricPriceForm](ZooplaHistoricPriceForm.md)
-- [RightmoveHistoricPrice](RightmoveHistoricPrice.md)
 - [CouncilTaxBand](CouncilTaxBand.md)
 - [SignatureKeyMatchingAttribute](SignatureKeyMatchingAttribute.md)
 - [SignatureMatchingAttribute](SignatureMatchingAttribute.md)

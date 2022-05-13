@@ -1,5 +1,5 @@
 # MultiSignature
-This a test description
+
 
 ## GET /multisignature/{parameterHPIDs}
 ### Response 200 (application/json)
