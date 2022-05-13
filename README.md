@@ -18,6 +18,9 @@ An **HPID** is the HARNESS Property Identifier, which identifies signatures (str
 
 ## Getting Started
 Full API documentation can be found on the DataFabric GitHub Repo.
+- https://github.com/harnesspi/external-datafabric-docs
+- https://github.com/harnesspi/external-datafabric-docs/blob/main/docs/DataFabricAPI.md
+
 ### Security
 When you start using the the Data Fabric APIs you will be provided with your own API Key to include in each request, either as a Header or Query Parameter with a value of `Subscription-Key`.
 
