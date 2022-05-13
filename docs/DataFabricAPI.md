@@ -47,4 +47,3 @@
 - [ICIJOfficer](ICIJOfficer.md)
 - [ICIJIntermediary](ICIJIntermediary.md)
 - [PostalArea](PostalArea.md)
-- [ExperianShopPoint](ExperianShopPoint.md)
